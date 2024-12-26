@@ -1,0 +1,270 @@
+###transcaucasia####
+CAU = {
+
+ #
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_transcaucasia_absolutist_monarchy
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_transcaucasia_monarchy
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_transcaucasia_dictatorship
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_transcaucasia_republic
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_transcaucasia_theocratic
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_transcaucasia_theocraticvote
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_transcaucasia_communist
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_transcaucasia_communistvote
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = {
+		name = dyn_c_transcaucasia_anarchy
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Subjects
+
+	dynamic_country_name = {
+		name = dyn_c_transcaucasia_subject_GBR
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_transcaucasia_subject_FRA
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_transcaucasia_subject_RUS
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_transcaucasia_subject_TUR
+		adjective = CAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+			}
+		}
+	}
+	
+}

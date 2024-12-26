@@ -1,0 +1,2014 @@
+###ireland####
+IRE = {
+
+ #Irish
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_ireland_absolutist_monarchy
+		adjective = IRE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_ireland_monarchy
+		adjective = IRE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_ireland_dictatorship
+		adjective = IRE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_ireland_republic
+		adjective = IRE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_ireland_theocratic
+		adjective = IRE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_ireland_theocraticvote
+		adjective = IRE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_ireland_communist
+		adjective = IRE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_ireland_communistvote
+		adjective = IRE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_ireland_anarchy
+		adjective = IRE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+}
+
+###ulster####
+ULS = {
+
+ #Irish(?)
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_ulster_absolutist_monarchy
+		adjective = ULS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_ulster_monarchy
+		adjective = ULS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_ulster_dictatorship
+		adjective = ULS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_ulster_republic
+		adjective = ULS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_ulster_theocratic
+		adjective = ULS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_ulster_theocraticvote
+		adjective = ULS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_ulster_communist
+		adjective = ULS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_ulster_communistvote
+		adjective = ULS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_ulster_anarchy
+		adjective = ULS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+}
+
+###wales####
+WLS = {
+
+ #Welsh
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_wales_absolutist_monarchy
+		adjective = WLS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_wales_monarchy
+		adjective = WLS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_wales_dictatorship
+		adjective = WLS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_wales_republic
+		adjective = WLS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_wales_theocratic
+		adjective = WLS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_wales_theocraticvote
+		adjective = WLS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_wales_communist
+		adjective = WLS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_wales_communistvote
+		adjective = WLS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_wales_anarchy
+		adjective = WLS_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+}
+
+###scotland####
+SCO = {
+
+ #(?)Scot/Scot-Gael
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scotland_absolutist_monarchy
+		adjective = SCO_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scotland_monarchy
+		adjective = SCO_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scotland_dictatorship
+		adjective = SCO_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scotland_republic
+		adjective = SCO_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scotland_theocratic
+		adjective = SCO_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scotland_theocraticvote
+		adjective = SCO_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scotland_communist
+		adjective = SCO_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scotland_communistvote
+		adjective = SCO_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_scotland_anarchy
+		adjective = SCO_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+}
+
+###england####
+ENG = {
+
+ #English
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_england_absolutist_monarchy
+		adjective = ENG_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_england_monarchy
+		adjective = ENG_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_england_dictatorship
+		adjective = ENG_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_england_republic
+		adjective = ENG_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_england_theocratic
+		adjective = ENG_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_england_theocraticvote
+		adjective = ENG_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_england_communist
+		adjective = ENG_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_england_communistvote
+		adjective = ENG_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_england_anarchy
+		adjective = ENG_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+}
+
+###britain####
+GBR = {
+
+ #english
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_absolutist_monarchy
+		adjective = GBR_ADJ
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_monarchy
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_dictatorship
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_republic
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #theocratic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_theocratic
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_theocraticvote
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_communist
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_communistvote
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_britain_anarchy
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Scot/Scot-gael?
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_sco_absolutist_monarchy
+		adjective = GBR_ADJ
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:scottish
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:scottish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_sco_monarchy
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:scottish
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:scottish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Republic
+
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_sco_dictatorship
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:scottish
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:scottish
+					}
+					is_capital = yes
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_sco_republic
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:scottish
+				ruler = {
+					has_culture = cu:scottish
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocratic
+
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_sco_theocratic
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:scottish
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:scottish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_sco_theocraticvote
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:scottish
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:scottish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #communist
+
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_sco_communist
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:scottish
+				ruler = {
+					has_culture = cu:scottish
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_sco_communistvote
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:scottish
+				ruler = {
+					has_culture = cu:scottish
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_britain_sco_anarchy
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:scottish
+				ruler = {
+					has_culture = cu:scottish
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Irish?
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_ire_absolutist_monarchy
+		adjective = GBR_ADJ
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:irish
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:irish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_ire_monarchy
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:irish
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:irish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Republic
+
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_ire_dictatorship
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:irish
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:irish
+					}
+					is_capital = yes
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_ire_republic
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:irish
+				ruler = {
+					has_culture = cu:irish
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocratic
+
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_ire_theocratic
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:irish
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:irish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_ire_theocraticvote
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:irish
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:irish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #communist
+
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_ire_communist
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:irish
+				ruler = {
+					has_culture = cu:irish
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_ire_communistvote
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:irish
+				ruler = {
+					has_culture = cu:irish
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_britain_ire_anarchy
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:irish
+				ruler = {
+					has_culture = cu:irish
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #welsh?
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_wls_absolutist_monarchy
+		adjective = GBR_ADJ
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:welsh
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:welsh
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_wls_monarchy
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:welsh
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:welsh
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Republic
+
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_wls_dictatorship
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:welsh
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:welsh
+					}
+					is_capital = yes
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_wls_republic
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:welsh
+				ruler = {
+					has_culture = cu:welsh
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocratic
+
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_wls_theocratic
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:welsh
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:welsh
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_wls_theocraticvote
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:welsh
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:welsh
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #communist
+
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_britain_wls_communist
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:welsh
+				ruler = {
+					has_culture = cu:welsh
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_britain_wls_communistvote
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:welsh
+				ruler = {
+					has_culture = cu:welsh
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_britain_wls_anarchy
+		adjective = GBR_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:welsh
+				ruler = {
+					has_culture = cu:welsh
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+}

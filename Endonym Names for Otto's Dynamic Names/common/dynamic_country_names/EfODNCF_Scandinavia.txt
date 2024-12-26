@@ -1,0 +1,3230 @@
+###scandinavia#### Swedish, Norwegian, Danish, Icelandic (, Finnish)
+SCA = {
+
+ #Swedish
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_swe_absolutist_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_swe_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_swe_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_swe_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_swe_theocratic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_swe_theocraticvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_swe_communist
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_swe_communistvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_scandinavia_swe_anarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Norwegian
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_nor_absolutist_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_nor_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_nor_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_nor_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_nor_theocratic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_nor_theocraticvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_nor_communist
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_nor_communistvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_scandinavia_nor_anarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Danish
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_dan_absolutist_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:danish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_dan_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:danish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_dan_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:danish
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_dan_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:danish
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_dan_theocratic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:danish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_dan_theocraticvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:danish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_dan_communist
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:danish
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_dan_communistvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:danish
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_scandinavia_dan_anarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:danish
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Icelandic
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_ice_absolutist_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:icelandic
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_ice_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:icelandic
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_ice_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:icelandic
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_ice_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:icelandic
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_ice_theocratic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:icelandic
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_ice_theocraticvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:icelandic
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_ice_communist
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:icelandic
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_ice_communistvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:icelandic
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_scandinavia_ice_anarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:icelandic
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Finnish
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_fin_absolutist_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:finnish
+					}
+					is_capital = yes
+				}
+				country_has_primary_culture = cu:finnish
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_fin_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:finnish
+					}
+					is_capital = yes
+				}
+				country_has_primary_culture = cu:finnish
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_fin_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:finnish
+				}
+				country_has_primary_culture = cu:finnish
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_fin_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:finnish
+				}
+				country_has_primary_culture = cu:finnish
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_fin_theocratic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:finnish
+					}
+					is_capital = yes
+				}
+				country_has_primary_culture = cu:finnish
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_fin_theocraticvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:finnish
+					}
+					is_capital = yes
+				}
+				country_has_primary_culture = cu:finnish
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_scandinavia_fin_communist
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:finnish
+				}
+				country_has_primary_culture = cu:finnish
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_scandinavia_fin_communistvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:finnish
+				}
+				country_has_primary_culture = cu:finnish
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_scandinavia_fin_anarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:finnish
+				}
+				country_has_primary_culture = cu:finnish
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+}
+
+###norway#### +Norway-Sweden
+NOR = {
+
+ #Norwegian
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_absolutist_monarchy
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_monarchy
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_republic
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_republic
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #theocratic
+
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_theocratic
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_theocraticvote
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_communist
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_communistvote
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+ #Norway-Sweden // Norwegian
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_sweden_absolutist_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_sweden_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_sweden_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_sweden_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_sweden_theocratic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_sweden_theocraticvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_sweden_communist
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_sweden_communistvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_norway_sweden_anarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Norway-Sweden // Swedish
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_norway_absolutist_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_norway_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_norway_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:swedish
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_norway_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:swedish
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_norway_theocratic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_norway_theocraticvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_norway_communist
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:swedish
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_norway_communistvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:swedish
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_sweden_norway_anarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:swedish
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #subject
+  #Sweden
+	
+	dynamic_country_name = { #Default
+		name = dyn_c_norway_subject_SWE
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SWE
+				NOT = {
+					OR = {
+						is_subject_type = subject_type_protectorate
+						is_subject_type = subject_type_personal_union
+						is_subject_type = subject_type_tributary
+					}
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Puppet
+		name = dyn_c_norway_puppet_SWE
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 102
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SWE
+				is_subject_type = subject_type_puppet
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Personal Union
+		name = dyn_c_norway_personal_union_SWE
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 102
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SWE
+				is_subject_type = subject_type_personal_union
+			}
+		}
+	}
+
+  #Denmark
+	
+	dynamic_country_name = { #Default
+		name = dyn_c_norway_subject_DEN
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:DEN
+				NOT = {
+					OR = {
+						is_subject_type = subject_type_protectorate
+						is_subject_type = subject_type_personal_union
+						is_subject_type = subject_type_tributary
+					}
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Puppet
+		name = dyn_c_norway_puppet_DEN
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 102
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:DEN
+				is_subject_type = subject_type_puppet
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Personal Union
+		name = dyn_c_norway_personal_union_DEN
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 102
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:DEN
+				is_subject_type = subject_type_personal_union
+			}
+		}
+	}
+}
+
+###sweden#### +Sweden-Norway
+SWE = {
+
+ #Swedish
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_absolutist_monarchy
+		adjective = SWE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_monarchy
+		adjective = SWE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_republic
+		adjective = SWE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_republic
+		adjective = SWE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_theocratic
+		adjective = SWE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_theocraticvote
+		adjective = SWE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_communist
+		adjective = SWE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_communistvote
+		adjective = SWE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_sweden_anarchy
+		adjective = SWE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Sweden-Norway // Swedish
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_norway_absolutist_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_norway_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_norway_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_norway_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_norway_theocratic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_norway_theocraticvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:swedish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_sweden_norway_communist
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_sweden_norway_communistvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_sweden_norway_anarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Sweden-Norway // Norwegian
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_sweden_absolutist_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_sweden_monarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_sweden_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_sweden_republic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_sweden_theocratic
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_sweden_theocraticvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_norway_sweden_communist
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_norway_sweden_communistvote
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_norway_sweden_anarchy
+		adjective = SCA_ADJ
+
+		is_main_tag_only = yes
+		priority = 22
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:norwegian
+					}
+					is_incorporated = yes
+				}
+				ruler = {
+					has_culture = cu:norwegian
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Subject	
+  #Denmark
+	
+	dynamic_country_name = { #Default
+		name = dyn_c_finland_subject_RUS
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:DEN
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+					is_subject_type = subject_type_tributary
+				}
+			}
+		}
+	}
+}
+
+###finland####
+FIN = {
+
+ #Finnish
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_finland_absolutist_monarchy
+		adjective = FIN_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_finland_monarchy
+		adjective = FIN_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Subject Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_finland_absolutist_monarchy
+		adjective = FIN_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_finland_monarchy
+		adjective = FIN_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_finland_republic
+		adjective = FIN_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_finland_republic
+		adjective = FIN_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_finland_theocratic
+		adjective = FIN_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_finland_theocraticvote
+		adjective = FIN_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_finland_communist
+		adjective = FIN_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_finland_communistvote
+		adjective = FIN_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_finland_anarchy
+		adjective = FIN_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Puppet
+  #Russia
+	
+	dynamic_country_name = { #Default
+		name = dyn_c_finland_subject_RUS
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+					is_subject_type = subject_type_tributary
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Puppet
+		name = dyn_c_finland_puppet_RUS
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 102
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				is_subject_type = subject_type_puppet
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Personal Union
+		name = dyn_c_finland_personal_union_RUS
+		adjective = NOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 102
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				is_subject_type = subject_type_personal_union
+			}
+		}
+	}
+}

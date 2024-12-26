@@ -1,0 +1,3259 @@
+###austria####
+AUS = {
+	
+ #German
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_austria_absolutist_monarchy
+		adjective = AUS_ADJ
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_austria_monarchy
+		adjective = AUS_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_austria_dictatorship
+		adjective = AUS_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_austria_republic
+		adjective = AUS_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_austria_theocratic
+		adjective = AUS_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_austria_theocraticvote
+		adjective = AUS_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_austria_communist
+		adjective = AUS_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_austria_communistvote
+		adjective = AUS_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_austria_anarchy
+		adjective = AUS_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #A-H German
+  #Monarchy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_AUH_hungary_ger_absolutist_monarchy
+		adjective = AUSH_ADJ
+		is_main_tag_only = yes
+		priority = 11
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:south_german
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_AUH_hungary_ger_monarchy
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 11
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:south_german
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_AUH_hungary_ger_dictatorship
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 11
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_AUH_hungary_ger_republic
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 11
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_AUH_hungary_ger_theocratic
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 11
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:south_german
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_AUH_hungary_ger_theocraticvote
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 11
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:south_german
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_AUH_hungary_ger_communist
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 11
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_AUH_hungary_ger_communistvote
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 11
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_AUH_hungary_ger_anarchy
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 11
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+				country_has_primary_culture = cu:hungarian
+			}
+		}
+	}
+
+ #A-H Hungarian
+  #Monarchy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_AUH_hungary_hun_absolutist_monarchy
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 12
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:hungarian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_AUH_hungary_hun_monarchy
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 12
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:hungarian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_AUH_hungary_hun_dictatorship
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 12
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				ruler = {
+					has_culture = cu:hungarian
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_AUH_hungary_hun_republic
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 12
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				ruler = {
+					has_culture = cu:hungarian
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_AUH_hungary_hun_theocratic
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 12
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:hungarian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_AUH_hungary_hun_theocraticvote
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 12
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:hungarian
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_AUH_hungary_hun_communist
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 12
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				ruler = {
+					has_culture = cu:hungarian
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_AUH_hungary_hun_communistvote
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 12
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian
+				ruler = {
+					has_culture = cu:hungarian
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_AUH_hungary_hun_anarchy
+		adjective = AUSH_ADJ
+
+		is_main_tag_only = yes
+		priority = 12
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:hungarian
+				}
+				has_law = law_type:law_anarchy
+				country_has_primary_culture = cu:hungarian
+			}
+		}
+	}
+}
+
+###hungary####
+HUN = {
+
+ #Hungar
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_hungary_absolutist_monarchy
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_hungary_monarchy
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_hungary_dictatorship
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_hungary_republic
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_hungary_theocratic
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_hungary_theocraticvote
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_hungary_communist
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_hungary_communistvote
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = {
+		name = dyn_c_hungary_anarchy
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Subject
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_SIA
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_GBR
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_FRA
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_POR
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_SPA
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Germany
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_GER
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_PRU
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Austria
+	
+	dynamic_country_name = { #Subject
+		name = dyn_c_HUN_subject_AUS
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Puppet
+		name = dyn_c_HUN_puppet_AUS
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				is_subject_type = subject_type_puppet
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Personal Union
+		name = dyn_c_HUN_personal_union_AUS
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				is_subject_type = subject_type_personal_union
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_RUS
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_TUR
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #United States
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_USA
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_ITA
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_JAP
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_HUN_subject_CHI
+		adjective = HUN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###Croatia####
+CRO = {
+
+ #Croatian
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_croatia_absolutist_monarchy
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_croatia_monarchy
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_croatia_dictatorship
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_croatia_republic
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_croatia_theocratic
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_croatia_theocraticvote
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_croatia_communist
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_croatia_communistvote
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = {
+		name = dyn_c_croatia_anarchy
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Subject
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_SIA
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_GBR
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_FRA
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherland
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_NET
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				or = {
+					AND = {
+						is_subject_of = c:NET
+						NOT = {
+							is_subject_type = subject_type_protectorate
+							is_subject_type = subject_type_personal_union
+						}
+					}
+					AND = {
+						is_subject_of = c:UNL
+						NOT = {
+							is_subject_type = subject_type_protectorate
+							is_subject_type = subject_type_personal_union
+						}
+					}
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_POR
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_SPA
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Germany
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_GER
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #South German Federation
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_SGF
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SGF
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #North German Federation
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_NGF
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:NGF
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_PRU
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Austria
+	
+	dynamic_country_name = { #Subject
+		name = dyn_c_CRO_subject_AUS
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Puppet
+		name = dyn_c_CRO_puppet_AUS
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				is_subject_type = subject_type_puppet
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Personal Union
+		name = dyn_c_CRO_personal_union_AUS
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				is_subject_type = subject_type_personal_union
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_RUS
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_TUR
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #United States
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_USA
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_ITA
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_JAP
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_CRO_subject_CHI
+		adjective = CRO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###Slovenia####
+SLO = {
+
+ #Slovenian
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_slovenia_absolutist_monarchy
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_slovenia_monarchy
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_slovenia_dictatorship
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_slovenia_republic
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_slovenia_theocratic
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_slovenia_theocraticvote
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_slovenia_communist
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_slovenia_communistvote
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = {
+		name = dyn_c_slovenia_anarchy
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Subject
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_SIA
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_GBR
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_FRA
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherland
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_NET
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				or = {
+					AND = {
+						is_subject_of = c:NET
+						NOT = {
+							is_subject_type = subject_type_protectorate
+							is_subject_type = subject_type_personal_union
+						}
+					}
+					AND = {
+						is_subject_of = c:UNL
+						NOT = {
+							is_subject_type = subject_type_protectorate
+							is_subject_type = subject_type_personal_union
+						}
+					}
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_POR
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_SPA
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Germany
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_GER
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #South German Federation
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_SGF
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SGF
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #North German Federation
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_NGF
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:NGF
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_PRU
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Austria
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_AUS
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_RUS
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_TUR
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #United States
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_USA
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_ITA
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_JAP
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_SLO_subject_CHI
+		adjective = SLO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###Galicia-Londomeria####
+GAL = {
+
+ #polish
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_galicia_londomeria_absolutist_monarchy
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_galicia_londomeria_monarchy
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_galicia_londomeria_dictatorship
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_galicia_londomeria_republic
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_galicia_londomeria_theocratic
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_galicia_londomeria_theocraticvote
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_galicia_londomeria_communist
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_galicia_londomeria_communistvote
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = {
+		name = dyn_c_galicia_londomeria_anarchy
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #ukrainian
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_galicia_londomeria_UKR_absolutist_monarchy
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:ukrainian
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_galicia_londomeria_UKR_monarchy
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:ukrainian
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_galicia_londomeria_UKR_dictatorship
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:ukrainian
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_galicia_londomeria_UKR_republic
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:ukrainian
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_galicia_londomeria_UKR_theocratic
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:ukrainian
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_galicia_londomeria_UKR_theocraticvote
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:ukrainian
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Communism
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_galicia_londomeria_UKR_communist
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:ukrainian
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_galicia_londomeria_UKR_communistvote
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:ukrainian
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = {
+		name = dyn_c_galicia_londomeria_UKR_anarchy
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:ukrainian
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Subject
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_SIA
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_GBR
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_FRA
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherland
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_NET
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				or = {
+					AND = {
+						is_subject_of = c:NET
+						NOT = {
+							is_subject_type = subject_type_protectorate
+							is_subject_type = subject_type_personal_union
+						}
+					}
+					AND = {
+						is_subject_of = c:UNL
+						NOT = {
+							is_subject_type = subject_type_protectorate
+							is_subject_type = subject_type_personal_union
+						}
+					}
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_POR
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_SPA
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Germany
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_GER
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #South German Federation
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_SGF
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SGF
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #North German Federation
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_NGF
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:NGF
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_PRU
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Austria
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_AUS
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Puppet
+		name = dyn_c_GAL_puppet_AUS
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				is_subject_type = subject_type_puppet
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Personal Union
+		name = dyn_c_GAL_personal_union_AUS
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				is_subject_type = subject_type_personal_union
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_RUS
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_TUR
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #United States
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_USA
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_ITA
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_JAP
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_GAL_subject_CHI
+		adjective = GAL_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}

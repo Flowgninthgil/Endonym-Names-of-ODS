@@ -1,0 +1,556 @@
+###australia####
+AST = {
+
+ #English
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_australia_absolutist_monarchy
+		adjective = AST_ADJ
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_australia_monarchy
+		adjective = AST_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_australia_dictatorship
+		adjective = AST_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_australia_republic
+		adjective = AST_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #theocracy
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_australia_theocratic
+		adjective = AST_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_australia_theocraticvote
+		adjective = AST_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_australia_communist
+		adjective = AST_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { #Vote
+		name = dyn_c_australia_communistvote
+		adjective = AST_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_australia_anarchy
+		adjective = AST_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Subject
+  #Britain
+	
+	dynamic_country_name = { #Default
+		name = dyn_c_australia_subject_GBR
+		adjective = AST_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Colony
+		name = dyn_c_australia_colony_GBR
+		adjective = AST_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_colony
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Dominion
+		name = dyn_c_australia_dominion_GBR
+		adjective = AST_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_dominion
+			}
+		}
+	}
+	
+}
+
+###westernaustralia####
+WAS = {	
+
+ #Subject
+  #Britain
+	
+	dynamic_country_name = { #Default
+		name = dyn_c_westernaustralia_subject_GBR
+		adjective = WAS_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Colony
+		name = dyn_c_westernaustralia_colony_GBR
+		adjective = WAS_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_colony
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Dominion
+		name = dyn_c_westernaustralia_dominion_GBR
+		adjective = WAS_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_dominion
+			}
+		}
+	}
+	
+}
+
+###southernaustralia####
+SAS = {	
+
+ #Subject
+  #Britain
+	
+	dynamic_country_name = { #Default
+		name = dyn_c_southernaustralia_subject_GBR
+		adjective = SAS_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Colony
+		name = dyn_c_southernaustralia_colony_GBR
+		adjective = SAS_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_colony
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Dominion
+		name = dyn_c_southernaustralia_dominion_GBR
+		adjective = SAS_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_dominion
+			}
+		}
+	}
+	
+}
+
+###newsouthwales####
+NSW = {	
+
+ #Subject
+  #Britain
+	
+	dynamic_country_name = { #default
+		name = dyn_c_newsouthwales_subject_GBR
+		adjective = NSW_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Colony
+		name = dyn_c_newsouthwales_colony_GBR
+		adjective = NSW_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_colony
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Dominion
+		name = dyn_c_newsouthwales_dominion_GBR
+		adjective = NSW_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_dominion
+			}
+		}
+	}
+	
+}
+
+###tasmania####
+TAS = {	
+
+ #Subject
+  #Britain
+	
+	dynamic_country_name = { #default
+		name = dyn_c_tasmania_subject_GBR
+		adjective = TAS_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Colony
+		name = dyn_c_tasmania_colony_GBR
+		adjective = TAS_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_colony
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Dominion
+		name = dyn_c_tasmania_dominion_GBR
+		adjective = TAS_ADJ
+
+		is_main_tag_only = yes
+		priority = 101
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_dominion
+			}
+		}
+	}
+	
+}
+
+###newzealand####
+NZL = {
+
+ #Subject
+  #Britain
+	
+    dynamic_country_name = { #default
+		name = dyn_c_newzealand_subject_GBR
+		adjective = TAS_ADJ
+   
+		is_main_tag_only = yes
+		priority = 100
+   
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Colony
+		name = dyn_c_newzealand_colony_GBR
+		adjective = TAS_ADJ
+   
+		is_main_tag_only = yes
+		priority = 101
+   
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_colony
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Dominion
+		name = dyn_c_newzealand_dominion_GBR
+		adjective = TAS_ADJ
+   
+		is_main_tag_only = yes
+		priority = 101
+   
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				is_subject_type = subject_type_dominion
+			}
+		}
+	}
+	
+}

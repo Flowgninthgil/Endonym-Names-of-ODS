@@ -1,0 +1,125 @@
+
+#je_efodncf_scripts_button_hide = {
+#	name = "je_efodncf_scripts_button_hide"
+#	desc = "je_efodncf_scripts_button_hide_desc"
+#
+#	visible = {
+#		always = yes
+#	}
+#
+#	possible = {
+#		always = yes
+#	}
+#
+#	ai_chance = {
+#		base = 100
+#	}
+#
+#	effect = {
+#		set_global_variable = efodncf_hidden_script
+#	}
+#}
+#
+#je_efodncf_scripts_button_latin = {
+#	name = "je_efodncf_scripts_button_latin"
+#	desc = "je_efodncf_scripts_button_latin_desc"
+#
+#	visible = {
+#		always = yes
+#	}
+#
+#	possible = {
+#		NOT = {
+#			global_var:efodncf_script = 0
+#		}
+#	}
+#
+#	ai_chance = {
+#		base = 100
+#	}
+#
+#	effect = {
+#		set_global_variable = {
+#			name = efodncf_script
+#			value = 0
+#		}
+#	}
+#}
+#
+#je_efodncf_scripts_button_cyrillic = {
+#	name = "je_efodncf_scripts_button_cyrillic"
+#	desc = "je_efodncf_scripts_button_cyrillic_desc"
+#
+#	visible = {
+#		always = yes
+#	}
+#
+#	possible = {
+#		NOT = {
+#			global_var:efodncf_script = 1
+#		}
+#	}
+#
+#	ai_chance = {
+#		base = 100
+#	}
+#
+#	effect = {
+#		set_global_variable = {
+#			name = efodncf_script
+#			value = 1
+#		}
+#	}
+#}
+#
+#je_efodncf_scripts_button_greek = {
+#	name = "je_efodncf_scripts_button_greek"
+#	desc = "je_efodncf_scripts_button_greek_desc"
+#
+#	visible = {
+#		always = yes
+#	}
+#
+#	possible = {
+#		NOT = {
+#			global_var:efodncf_script = 2
+#		}
+#	}
+#
+#	ai_chance = {
+#		base = 100
+#	}
+#
+#	effect = {
+#		set_global_variable = {
+#			name = efodncf_script
+#			value = 2
+#		}
+#	}
+#}
+#
+#je_efodncf_scripts_button_romanji = {
+#	name = "je_efodncf_scripts_button_romanji"
+#	desc = "je_efodncf_scripts_button_romanji_desc"
+#
+#	visible = {
+#		always = yes
+#	}
+#
+#	possible = {
+#		NOT = {
+#			global_var:efodncf_script = 3
+#		}
+#	}
+#
+#	ai_chance = {
+#		base = 100
+#	}
+#
+#	effect = {
+#		set_global_variable = {
+#			name = efodncf_script
+#			value = 3
+#		}
+#	}
+#}

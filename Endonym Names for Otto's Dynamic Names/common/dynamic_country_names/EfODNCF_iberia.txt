@@ -1,0 +1,1226 @@
+###iberia####
+IBE = {
+
+ #Spanish
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_spa_absolutist_monarchy
+		adjective = IBE_ADJ
+		
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:spanish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_spa_monarchy
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:spanish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_spa_dictatorship
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:spanish
+					}
+					is_capital = yes
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_spa_republic
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #theocratic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_spa_theocratic
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:spanish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_spa_theocraticvote
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:spanish
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_spa_communist
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_spa_communistvote
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_iberia_spa_anarchy
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 20
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Portugese
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_por_absolutist_monarchy
+		adjective = IBE_ADJ
+		
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:portugese
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_por_monarchy
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:portugese
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_por_dictatorship
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:portugese
+					}
+					is_capital = yes
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_por_republic
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:portugese
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #theocratic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_por_theocratic
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:portugese
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_por_theocraticvote
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:portugese
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_por_communist
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:portugese
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_por_communistvote
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:portugese
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+		
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_iberia_por_anarchy
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:portugese
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Catalan
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_cat_absolutist_monarchy
+		adjective = IBE_ADJ
+		
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:catalan
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_cat_monarchy
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:catalan
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_cat_dictatorship
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:catalan
+					}
+					is_capital = yes
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_cat_republic
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:catalan
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #theocratic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_cat_theocratic
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:catalan
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_cat_theocraticvote
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:catalan
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_cat_communist
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:catalan
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_cat_communistvote
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:catalan
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+		
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_iberia_cat_anarchy
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:catalan
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Basque
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_esk_absolutist_monarchy
+		adjective = IBE_ADJ
+		
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:basque
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_esk_monarchy
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:basque
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_esk_dictatorship
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:basque
+					}
+					is_capital = yes
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_esk_republic
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:basque
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #theocratic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_esk_theocratic
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:basque
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_esk_theocraticvote
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:basque
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_esk_communist
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:basque
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_esk_communistvote
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:basque
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+		
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_iberia_esk_anarchy
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:basque
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+ #Galician
+  #Monarchy
+		
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_gli_absolutist_monarchy
+		adjective = IBE_ADJ
+		
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:galician
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_gli_monarchy
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:galician
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_monarchy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #Republic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_gli_dictatorship
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:galician
+					}
+					is_capital = yes
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_gli_republic
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:galician
+				}
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic	
+				}
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #theocratic
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_gli_theocratic
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:galician
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_gli_theocraticvote
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				any_scope_state = {
+					state_region = {
+						is_homeland = cu:galician
+					}
+					is_capital = yes
+				}
+				has_law = law_type:law_theocracy
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+	
+  #communist
+	
+	dynamic_country_name = { #Dictatorship
+		name = dyn_c_iberia_gli_communist
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:galician
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_military_junta
+					has_law = law_type:law_single_party_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { #Vote
+		name = dyn_c_iberia_gli_communistvote
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:galician
+				}
+				has_law = law_type:law_council_republic
+				OR = {
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_landed_voting
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+				}
+			}
+		}
+	}
+		
+
+  #Anarchy
+	
+	dynamic_country_name = { #Anarchy
+		name = dyn_c_iberia_gli_anarchy
+		adjective = IBE_ADJ
+
+		is_main_tag_only = yes
+		priority = 21
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				ruler = {
+					has_culture = cu:galician
+				}
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+
+}

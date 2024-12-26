@@ -1,0 +1,3764 @@
+﻿###darfur####
+DFR = {
+
+ #Caliphate?
+	
+	dynamic_country_name = {
+		name = dyn_c_darfur_caliphate
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_state_religion
+			}
+		}
+	}
+
+ #Subject
+  #Egypt
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_EGY
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:EGY
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Sokoto
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_SOK
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SOK
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_SIA
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_GBR
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_FRA
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherlands
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_NET
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					is_subject_of = c:NET
+					is_subject_of = c:UNL
+
+				}
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_POR
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_SPA
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #germany
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_GER
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+ 
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_PRU
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+  #Austria
+
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_AUS
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_RUS
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_TUR
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #USA
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_USA
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_ITA
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_JAP
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_DFR_subject_CHI
+		adjective = DFR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###wadai####
+WAD = {
+
+ #Caliphate?
+	
+	dynamic_country_name = {
+		name = dyn_c_wadai_caliphate
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_state_religion
+			}
+		}
+	}
+
+ #Subject
+  #Egypt
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_EGY
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:EGY
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Sokoto
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_SOK
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SOK
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_SIA
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_GBR
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_FRA
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherlands
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_NET
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					is_subject_of = c:NET
+					is_subject_of = c:UNL
+
+				}
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_POR
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_SPA
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #germany
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_GER
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+ 
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_PRU
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+  #Austria
+
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_AUS
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_RUS
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_TUR
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #USA
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_USA
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_ITA
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_JAP
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_WAD_subject_CHI
+		adjective = WAD_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###bagirmi####
+BGI = {
+
+  #Caliphate?
+	
+	dynamic_country_name = {
+		name = dyn_c_bagirmi_caliphate
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_state_religion
+			}
+		}
+	}
+
+ #Subject
+  #Egypt
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_EGY
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:EGY
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Sokoto
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_SOK
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SOK
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_SIA
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_GBR
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_FRA
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherlands
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_NET
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					is_subject_of = c:NET
+					is_subject_of = c:UNL
+
+				}
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_POR
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_SPA
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #germany
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_GER
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+ 
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_PRU
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+  #Austria
+
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_AUS
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_RUS
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_TUR
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #USA
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_USA
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_ITA
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_JAP
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_BGI_subject_CHI
+		adjective = BGI_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###bornu####
+BOR = {
+
+  #Caliphate?
+	
+	dynamic_country_name = {
+		name = dyn_c_bornu_caliphate
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_state_religion
+			}
+		}
+	}
+
+ #Subject
+  #Egypt
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_EGY
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:EGY
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Sokoto
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_SOK
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SOK
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_SIA
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_GBR
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_FRA
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherlands
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_NET
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					is_subject_of = c:NET
+					is_subject_of = c:UNL
+
+				}
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_POR
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_SPA
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #germany
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_GER
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+ 
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_PRU
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+  #Austria
+
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_AUS
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_RUS
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_TUR
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #USA
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_USA
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_ITA
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_JAP
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_BOR_subject_CHI
+		adjective = BOR_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###gobir####
+HAU = {
+
+  #Caliphate?
+	
+	dynamic_country_name = {
+		name = dyn_c_gobir_caliphate
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_state_religion
+			}
+		}
+	}
+
+ #Subject
+  #Egypt
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_EGY
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:EGY
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Sokoto
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_SOK
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SOK
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_SIA
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_GBR
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_FRA
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherlands
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_NET
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					is_subject_of = c:NET
+					is_subject_of = c:UNL
+
+				}
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_POR
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_SPA
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #germany
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_GER
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+ 
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_PRU
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+  #Austria
+
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_AUS
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_RUS
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_TUR
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #USA
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_USA
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_ITA
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_JAP
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_HAU_subject_CHI
+		adjective = HAU_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###borgu####
+BRG = {
+
+  #Caliphate?
+	
+	dynamic_country_name = {
+		name = dyn_c_borgu_caliphate
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_state_religion
+			}
+		}
+	}
+
+ #Subject
+  #Egypt
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_EGY
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:EGY
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Sokoto
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_SOK
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SOK
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_SIA
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_GBR
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_FRA
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherlands
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_NET
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					is_subject_of = c:NET
+					is_subject_of = c:UNL
+
+				}
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_POR
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_SPA
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #germany
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_GER
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+ 
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_PRU
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+  #Austria
+
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_AUS
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_RUS
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_TUR
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #USA
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_USA
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_ITA
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_JAP
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_BRG_subject_CHI
+		adjective = BRG_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###benin####
+BEN = {
+
+ #Subject
+  #Egypt
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_EGY
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:EGY
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Sokoto
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_SOK
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SOK
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_SIA
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_GBR
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_FRA
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherlands
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_NET
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					is_subject_of = c:NET
+					is_subject_of = c:UNL
+
+				}
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_POR
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_SPA
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #germany
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_GER
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+ 
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_PRU
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+  #Austria
+
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_AUS
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_RUS
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_TUR
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #USA
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_USA
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_ITA
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_JAP
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_BEN_subject_CHI
+		adjective = BEN_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###oyo####
+OYO = {
+
+ #Subject
+  #Egypt
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_EGY
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:EGY
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Sokoto
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_SOK
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SOK
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_SIA
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_GBR
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_FRA
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherlands
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_NET
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					is_subject_of = c:NET
+					is_subject_of = c:UNL
+
+				}
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_POR
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_SPA
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #germany
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_GER
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+ 
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_PRU
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+  #Austria
+
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_AUS
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_RUS
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_TUR
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #USA
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_USA
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_ITA
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_JAP
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_OYO_subject_CHI
+		adjective = OYO_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###dahomey####
+DAH = {
+
+ #Subject
+  #Egypt
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_EGY
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:EGY
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Sokoto
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_SOK
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SOK
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_SIA
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_GBR
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_FRA
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherlands
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_NET
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					is_subject_of = c:NET
+					is_subject_of = c:UNL
+
+				}
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_POR
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_SPA
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #germany
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_GER
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+ 
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_PRU
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+  #Austria
+
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_AUS
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_RUS
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_TUR
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #USA
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_USA
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_ITA
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_JAP
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_DAH_subject_CHI
+		adjective = DAH_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}
+
+###sokoto####
+SOK = {
+
+  #Caliphate?
+	
+	dynamic_country_name = {
+		name = dyn_c_sokoto_caliphate
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_state_religion
+			}
+		}
+	}
+
+ #Subject
+  #Egypt
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_EGY
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:EGY
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Siam
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_SIA
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SIA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Britain
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_GBR
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GBR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #France
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_FRA
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:FRA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Netherlands
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_NET
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					is_subject_of = c:NET
+					is_subject_of = c:UNL
+
+				}
+				NOR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Portugal
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_POR
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:POR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Spain
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_SPA
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:SPA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #germany
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_GER
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:GER
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+ 
+  #Prussia
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_PRU
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:PRU
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+	
+  #Austria
+
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_AUS
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:AUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Russia
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_RUS
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:RUS
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Ottoman
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_TUR
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:TUR
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #USA
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_USA
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:USA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Italy
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_ITA
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:ITA
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #Japan
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_JAP
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:JAP
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+
+  #China
+	
+	dynamic_country_name = {
+		name = dyn_c_SOK_subject_CHI
+		adjective = SOK_ADJ
+
+		is_main_tag_only = yes
+		priority = 100
+
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				is_subject_of = c:CHI
+				NOT = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_personal_union
+				}
+			}
+		}
+	}
+}

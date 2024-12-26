@@ -1,0 +1,27 @@
+#je_efodncf_scripts = {
+#	icon = "gfx/interface/icons/invention_icons/colonization.dds"
+#	
+#	group = je_group_tutorial
+#
+#	is_shown_when_inactive = {
+#		always = yes
+#	}
+#
+#	possible = {
+#		#NOT = {
+#		#	has_global_variable = efodncf_hidden_script
+#		#}
+#		always = yes
+#	}
+#	
+#	# Establish Colonial Administration
+#	scripted_button = je_efodncf_scripts_button_latin
+#	scripted_button = je_efodncf_scripts_button_cyrillic
+#	scripted_button = je_efodncf_scripts_button_greek
+#	scripted_button = je_efodncf_scripts_button_romanji
+#	scripted_button = je_efodncf_scripts_button_hide
+#
+#	weight = 100
+#
+#	should_be_pinned_by_default = yes
+#}
