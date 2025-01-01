@@ -23,6 +23,8 @@
  dyn_zanj_ADJ:0 "zanje" #
  dyn_southern_africa_ADJ:0 "Sulafricano" #
 
+
+
 #To Do
 
 
@@ -86,6 +88,13 @@
 
 #Iberia
 
+ #Country Names Plus
+ #dyn_c_iberia_theocratic:0 "Holy Commonwealth of Iberia" # // Rzeczpospolita Gemeinwesen
+ #dyn_c_iberia_technocratic:0 "National Commission of Iberia" #
+ #dyn_c_iberia_fascist:0 "National Union of Iberia" #
+
+
+
  dyn_c_spain_absolutist_monarchy:0 "Reino de España" # Kingdom of Spain
  dyn_c_spain_monarchy:0 "Reino de España" # Kingdom of Spain
  dyn_c_spain_dictatorship:0 "Estado Español" # Spanish State
@@ -116,7 +125,7 @@
  #subject
  dyn_c_NAV_subject_GBR:0 "British Navarre" # // 
  dyn_c_NAV_subject_FRA:0 "Navarre française" # // 
- dyn_c_NAV_subject_NET:0 "Nederlandse Navarra" # // 
+ dyn_c_NAV_subject_NET:0 "Nederlandsche Navarra" # // 
  dyn_c_NAV_subject_POR:0 "Navarra Portuguesa" # // 
  dyn_c_NAV_subject_SPA:0 "Navarra Española" # // 
  dyn_c_NAV_subject_GER:0 "Deutsches Navarra" # // 
@@ -144,7 +153,7 @@
  #subject
  dyn_c_GLI_subject_GBR:0 "British Galicia" # // 
  dyn_c_GLI_subject_FRA:0 "Galice française" # // 
- dyn_c_GLI_subject_NET:0 "Nederlandse Galicië" # // 
+ dyn_c_GLI_subject_NET:0 "Nederlandsche Galicië" # // 
  dyn_c_GLI_subject_POR:0 "Galiza Portuguesa" # // 
  dyn_c_GLI_subject_SPA:0 "Galicia Española" # // 
  dyn_c_GLI_subject_GER:0 "Deutsches Galicien" # // 
@@ -172,7 +181,7 @@
  #subject
  dyn_c_CAT_subject_GBR:0 "British Catalonia" # // 
  dyn_c_CAT_subject_FRA:0 "Catalogne française" # // 
- dyn_c_CAT_subject_NET:0 "Nederlandse Catalonië" # // 
+ dyn_c_CAT_subject_NET:0 "Nederlandsche Catalonië" # // 
  dyn_c_CAT_subject_POR:0 "Catalunha Portuguesa" # // 
  dyn_c_CAT_subject_SPA:0 "Cataluña Española" # // 
  dyn_c_CAT_subject_GER:0 "Deutsches Katalonien" # // 
@@ -200,7 +209,7 @@
  #subject
  dyn_c_CAS_subject_GBR:0 "British Castile" # // 
  dyn_c_CAS_subject_FRA:0 "Castille français" # // 
- dyn_c_CAS_subject_NET:0 "Nederlandse Castilië" # // 
+ dyn_c_CAS_subject_NET:0 "Nederlandsche Castilië" # // 
  dyn_c_CAS_subject_POR:0 "Castela Portugues" # // 
  dyn_c_CAS_subject_SPA:0 "Castilla Español" # // 
  dyn_c_CAS_subject_GER:0 "Deutsches Kastilien" # // 
@@ -228,7 +237,7 @@
  #subject
  dyn_c_ANL_subject_GBR:0 "British Andalusia" # // 
  dyn_c_ANL_subject_FRA:0 "Andalousie française" # // 
- dyn_c_ANL_subject_NET:0 "Nederlandse Andalusië" # // 
+ dyn_c_ANL_subject_NET:0 "Nederlandsche Andalusië" # // 
  dyn_c_ANL_subject_POR:0 "Andaluzia Portuguesa" # // 
  dyn_c_ANL_subject_SPA:0 "Andalucía Española" # // 
  dyn_c_ANL_subject_GER:0 "Deutsches Andalusien" # // 
@@ -299,7 +308,7 @@
  dyn_c_OCC_subject_BRZ:0 "Occitânia Brasileira" # // 
  dyn_c_OCC_subject_SPA:0 "Occitania Española" # // 
  dyn_c_OCC_subject_ITA:0 "Occitania Italiana" # // 
- dyn_c_OCC_subject_NET:0 "Nederlandse Occitanië" # // 
+ dyn_c_OCC_subject_NET:0 "Nederlandsche Occitanië" # // 
  dyn_c_OCC_subject_GER:0 "Deutsches Okzitanien" # // 
  dyn_c_OCC_subject_PRU:0 "Prußisches Okzitanien" # // 
  dyn_c_OCC_subject_AUS:0 "Österreichisches Okzitanien" # // 
@@ -329,7 +338,7 @@
  dyn_c_BRI_subject_BRZ:0 "Bretanha Brasileira" # // 
  dyn_c_BRI_subject_SPA:0 "Bretaña Española" # // 
  dyn_c_BRI_subject_ITA:0 "Bretagna Italiana" # // 
- dyn_c_BRI_subject_NET:0 "Nederlandse Bretagne" # // 
+ dyn_c_BRI_subject_NET:0 "Nederlandsche Bretagne" # // 
  dyn_c_BRI_subject_GER:0 "Deutsches Bretagne" # // 
  dyn_c_BRI_subject_PRU:0 "Prußisches Bretagne" # // 
  dyn_c_BRI_subject_AUS:0 "Österreichisches Bretagne" # // 
@@ -387,16 +396,16 @@
 
 #Low countries
 
- dyn_c_unitednetherlands_absolutist_monarchy:0 "Verenigd Koninkrijk der Nederlanden" # // 
- dyn_c_unitednetherlands_monarchy:0 "Verenigd Koninkrijk der Nederlanden" # // 
- dyn_c_unitednetherlands_dictatorship:0 "Verenigd rijk der Nederlanden" # // 
- dyn_c_unitednetherlands_republic:0 " Republiek der Verenigd Nederlanden" # // 
- dyn_c_unitednetherlands_communist:0 "Volksrepubliek der Verenigd Nederlanden" # // 
- dyn_c_unitednetherlands_communistvote:0 "Radenrepubliek in der Verenigd Nederlanden" # // 
- dyn_c_unitednetherlands_theocratic:0 "Verenigd Protestantse rijk der Nederlanden" # // 
- dyn_c_unitednetherlands_theocraticvote:0 "Protestantse Republiek der Verenigd Nederlanden" # // 
- dyn_c_unitednetherlands_anarchy:0 "Verenigde Gemeenten" # // 
- #subject
+ dyn_c_unitednetherlands_absolutist_monarchy:0 "Verenigd Koninkrijk der Nederlanden" # United Kingdom of the Low Countries
+ dyn_c_unitednetherlands_monarchy:0 "Verenigd Koninkrijk der Nederlanden" # United Kingdom of the Low Countries
+ dyn_c_unitednetherlands_dictatorship:0 "Nederlands Verenigd Rijk" # Low Countries' United Empire
+ dyn_c_unitednetherlands_republic:0 "Verenigd Gemenebest der Nederlanden " # United Commonwealth of the Low Countries
+ dyn_c_unitednetherlands_communist:0 "Volksrepubliek der Verenigd Nederlanden" # People's Republic of the United Low Countries
+ dyn_c_unitednetherlands_communistvote:0 "Verenigd Radenrepublieken in Nederlanden" # United Councils Republics in the Low Countries
+ dyn_c_unitednetherlands_theocratic:0 "Verenigd Christelijke Rijk der Nederlanden" # // Christian Union of the Low Countries // 
+ dyn_c_unitednetherlands_theocraticvote:0 "Christelijke Republiek der Verenigd Nederlanden" # // Christian Republic of the United Low Countries // Katholieke Protestantsche
+ dyn_c_unitednetherlands_anarchy:0 "Verenigde Gemeenten in Nederlanden" # United Commonwealth in the Low Countries
+ #subject 
  dyn_c_UNL_subject_GBR:0 "British Netherlands" # // 
  dyn_c_UNL_subject_USA:0 "American Netherlands" # // 
  dyn_c_UNL_subject_FRA:0 "Pays-Bas français" # // 
@@ -404,7 +413,7 @@
  dyn_c_UNL_subject_BRZ:0 "Holanda Brasileira" # // 
  dyn_c_UNL_subject_SPA:0 "Países Bajos Españoles" # // 
  dyn_c_UNL_subject_ITA:0 "Paesi Bassi Italiani" # // 
- dyn_c_UNL_subject_NET:0 "Nederlandse Nederlands" # // ¯\_(ツ)_/¯  dutlish
+ dyn_c_UNL_subject_NET:0 "Nederlandsche Nederlands" # // ¯\_(ツ)_/¯  dutlish
  dyn_c_UNL_subject_GER:0 "Deutsches Niederlande" # // 
  dyn_c_UNL_subject_PRU:0 "Prußisches Niederlande" # // 
  dyn_c_UNL_subject_AUS:0 "Österreichisches Niederlande" # // 
@@ -416,15 +425,15 @@
 
 
 
- dyn_c_netherlands_absolutist_monarchy:0 "Koninkrijk der Nederlanden" # // 
- dyn_c_netherlands_monarchy:0 "Koninkrijk Nederland" # // 
- dyn_c_netherlands_dictatorship:0 "Groot-Nederlands Rijk" # // 
- dyn_c_netherlands_republic:0 "Bataafs Gemenebest" # // Bataafse Republiek
- dyn_c_netherlands_communist:0 "Socialistische Arbeidersbond" # // 
- dyn_c_netherlands_communistvote:0 "Bataafse Radenrepubliek" # // 
- dyn_c_netherlands_theocratic:0 "Katholieke eenheidsstaat" # // 
- dyn_c_netherlands_theocraticvote:0 "Katholieke Gemenebest der Nederlanden" # // 
- dyn_c_netherlands_anarchy:0 "Verenigde Gemeenten" # // 
+ dyn_c_netherlands_absolutist_monarchy:0 "Koninkrijk der Nederlanden" # Kingdom of the Netherlands
+ dyn_c_netherlands_monarchy:0 "Koninkrijk der Nederlanden" # Kingdom of the Netherlands
+ dyn_c_netherlands_dictatorship:0 "Nederlands Rijk" # Dutch Empire
+ dyn_c_netherlands_republic:0 "Bataafsche Republiek" # Batavian Republic // Bataafsche Gemenebest -- Batavian Commonwealth 
+ dyn_c_netherlands_communist:0 "Bataafsche Socialistische Arbeidersbond" # Batavian Socialist Workers' Union
+ dyn_c_netherlands_communistvote:0 "Radenrepubliek in Betuwe" # Council Republic in Batavia
+ dyn_c_netherlands_theocratic:0 "Christelijke eenheidsstaat" # // Christian unitary state //
+ dyn_c_netherlands_theocraticvote:0 "Christelijke Gemenebest der Nederlanden" # // Christian Commonwealth of the Netherlands //
+ dyn_c_netherlands_anarchy:0 "Verenigde Gemeenten in Betuwe" # United Commonwealth in Batavia
 
 
 
@@ -491,7 +500,7 @@
  dyn_c_LUX_subject_BRZ:0 "Luxemburgo Brasileiro" # // 
  dyn_c_LUX_subject_SPA:0 "Luxemburgo Español" # // 
  dyn_c_LUX_subject_ITA:0 "Lussemburgo Italiano" # // 
- dyn_c_LUX_subject_NET:0 "Nederlandse Luxemburg" # // 
+ dyn_c_LUX_subject_NET:0 "Nederlandsche Luxemburg" # // 
  dyn_c_LUX_subject_GER:0 "Deutsches Luxemburg" # // 
  dyn_c_LUX_subject_PRU:0 "Prußisches Luxemburg" # // 
  dyn_c_LUX_subject_AUS:0 "Österreichisches Luxemburg" # // 
@@ -760,8 +769,8 @@
  dyn_c_germany_republic:0 "Bundesrepublik Deutschland" # // 
  dyn_c_germany_communist:0 "Deutsches Demokratische Republik" # // 
  dyn_c_germany_communistvote:0 "Deutscher Rat der Arbeitervertreter" # // 
- dyn_c_germany_theocratic:0 "Deutscher Orden" # // 
- dyn_c_germany_theocraticvote:0 "Protestantisches Union Deutschland" # // 
+ dyn_c_germany_theocratic:0 "Bund Deutscher Ritterschaften" # Federation of German Knight(hood)s
+ dyn_c_germany_theocraticvote:0 "Christlich Deutsche Volksunion" # Christian German People's Union (Germany is ~50/50 Catholic and Protestant)
  dyn_c_germany_anarchy:0 "Freie Deutsche Kommunen" # // 
  #Country Names Plus
  #dyn_c_germany_monarchy:0 "German Empire" # // 
@@ -779,21 +788,21 @@
  dyn_c_rhine_dictatorship:0 "Konföderation Freier Rheinstaaten" # // 
  dyn_c_rhine_republic:0 "Konföderation der Rheinrepubliken" # // 
  dyn_c_rhine_communist:0 "Sozialistische Rheinrepubliken" # // 
- dyn_c_rhine_communistvote:0 "Sozialistischer Bund am Rhein" # // 
- dyn_c_rhine_theocratic:0 "Christliche Reich am Rhein" # // 
- dyn_c_rhine_theocraticvote:0 "Christliches Republiken am Rhein" # // 
+ dyn_c_rhine_communistvote:0 "Rheinischer Volksbund" # Rhenish People's Federation
+ dyn_c_rhine_theocratic:0 "Katholisher Bund am Rhein" # Catholic Federation on the Rhine (The Rhine is predominatly Catholic)
+ dyn_c_rhine_theocraticvote:0 "Katholishe Republiken am Rhein" # Catholic Republic on the Rhine
  dyn_c_rhine_anarchy:0 "Autonome Republiken am Rhein" # // 
 
 #North German
 
  dyn_c_northgerman_absolutist_monarchy:0 "Norddeutscher Bund" # // 
  dyn_c_northgerman_monarchy:0 "Norddeutscher Bund" # // 
- dyn_c_northgerman_dictatorship:0 "Norddeutsches Bundesreich" # // 
- dyn_c_northgerman_republic:0 "Norddeutsches Bundesrepublik" # // 
- dyn_c_northgerman_communist:0 "Norddeutsche Sozialistische Bundesrepublik" # // 
+ dyn_c_northgerman_dictatorship:0 "Norddeutscher Freistaat" # North German Free State
+ dyn_c_northgerman_republic:0 "Norddeutsche Bundesrepublik" # // 
+ dyn_c_northgerman_communist:0 "Sozialistischer Bund Norddeutschland" # Socialist Union of North Germany
  dyn_c_northgerman_communistvote:0 "Norddeutsche Räterepublik" # // 
  dyn_c_northgerman_theocratic:0 "Heiliger Bund Norddeutschland" # // 
- dyn_c_northgerman_theocraticvote:0 "Norddeutsche Protestantisches Bund" # // 
+ dyn_c_northgerman_theocraticvote:0 "Evangelisch Norddeutsche Volksunion" # Protestant North German People's Union
  dyn_c_northgerman_anarchy:0 "Norddeutsche Kommunen" # // 
  #Country Names Plus
  #dyn_c_north_germany_communist:0 "North German Council Republic" # // 
@@ -807,8 +816,8 @@
  dyn_c_prussia_republic:0 "Preußische Republik" # // 
  dyn_c_prussia_communist:0 "Preußische Volksrepublik" # // 
  dyn_c_prussia_communistvote:0 "Sozialistische Räterepubliken in Preußen" # // 
- dyn_c_prussia_theocratic:0 "Ordensstaat Preußen" # // 
- dyn_c_prussia_theocraticvote:0 "Orden Republik Preußen" # // 
+ dyn_c_prussia_theocratic:0 "Deutscher Orden" # Teutonic Order (Ive put it here as the Teutons were historically in Prussia)
+ dyn_c_prussia_theocraticvote:0 "Ordensrepublik Preußen" # // 
  dyn_c_prussia_anarchy:0 "Berliner Kommune" # // 
  #Country Names Plus
  #dyn_c_prussia_monarchy:0 "Kingdom of Prussia" # // 
@@ -821,11 +830,11 @@
  dyn_c_pomerania_absolutist_monarchy:0 "Königreich Pommern" # // 
  dyn_c_pomerania_monarchy:0 "Königreich Pommern" # // 
  dyn_c_pomerania_dictatorship:0 "Neu Pommersches Reich" # // 
- dyn_c_pomerania_republic:0 "Pommersches Republik" # // 
+ dyn_c_pomerania_republic:0 "Pommersche Republik" # // 
  dyn_c_pomerania_communist:0 "Pommersche Räterepublik" # // 
  dyn_c_pomerania_communistvote:0 "Pommersche Demokratische Republik" # // 
- dyn_c_pomerania_theocratic:0 "Katholischer Staat Pommern" # // 
- dyn_c_pomerania_theocraticvote:0 "Katholische Republik Pommern" # // 
+ dyn_c_pomerania_theocratic:0 "Evangelischer Staat Pommern" # Protestant State of Pommerania (Pommerania is (or rather was) predominantly protestant)
+ dyn_c_pomerania_theocraticvote:0 "Evangelische Republik Pommern" # Protestant Republic of Pommerania
  dyn_c_pomerania_anarchy:0 "Pommersche anarchistische Kommunen" # // 
  #subject
  dyn_c_pomerania_subject_FRA:0 "Poméranie française" # // 
@@ -839,7 +848,7 @@
 
  dyn_c_strelitz_absolutist_monarchy:0 "Herzogtum Mecklenburg-Strelitz" # // 
  dyn_c_strelitz_monarchy:0 "Herzogtum Mecklenburg-Strelitz" # // 
- dyn_c_strelitz_dictatorship:0 "Freie Stadt Mecklenburg-Strelitz" # // 
+ dyn_c_strelitz_dictatorship:0 "Freie Stadt Neustrelitz" # // 
  dyn_c_strelitz_republic:0 "Neustrelitz und Neubrandenburgische Stadtrat" # // 
  dyn_c_strelitz_communist:0 "Gewerkschaft der Arbeiter von Neustrelitz" # // 
  dyn_c_strelitz_communistvote:0 "Freie Volksrepublik Neustrelitz" # // 
@@ -861,8 +870,8 @@
 
  dyn_c_mecklenburg_absolutist_monarchy:0 "Herzogtum Mecklenburg-Schwerin" # // 
  dyn_c_mecklenburg_monarchy:0 "Herzogtum Mecklenburg-Schwerin" # // 
- dyn_c_mecklenburg_dictatorship:0 "Mecklenburgische Republik" # // 
- dyn_c_mecklenburg_republic:0 "Mecklenburgische Stadtrat" # // 
+ dyn_c_mecklenburg_dictatorship:0 "Mecklenburgsche Republik" # // 
+ dyn_c_mecklenburg_republic:0 "Mecklenburgscher Stadtrat" # // 
  dyn_c_mecklenburg_communist:0 "Arbeitergenossenschaft von Mecklenburg" # // 
  dyn_c_mecklenburg_communistvote:0 "Sozialistische Volksrepublik Mecklenburg" # // 
  dyn_c_mecklenburg_theocratic:0 "Heilige Stadt Schwerin" # // 
@@ -883,14 +892,14 @@
 
  dyn_c_schleswig_absolutist_monarchy:0 "Herzogtum Schleswig" # // 
  dyn_c_schleswig_monarchy:0 "Herzogtum Schleswig" # // 
- dyn_c_schleswig_dictatorship:0 "Unabhängiges Schleswig" # // 
+ dyn_c_schleswig_dictatorship:0 "Unabhängiger Schleswigscher Staat" # Independent Schleswigian State
  dyn_c_schleswig_republic:0 "Schleswiger Republik" # // 
  dyn_c_schleswig_communist:0 "Arbeitergenossenschaft Flensburg" # // 
  dyn_c_schleswig_communistvote:0 "Volksrepublik Schleswig" # // 
  dyn_c_schleswig_theocratic:0 "Schleswiger Orden" # // 
  dyn_c_schleswig_theocraticvote:0 "Evangelische Republik Schleswig" # // 
  dyn_c_schleswig_subject_DEN:0 "Dansk Slesvig" # // 
- dyn_c_schleswig_subject_PRU:0 "Preußisch Schleswig" # // 
+ dyn_c_schleswig_subject_PRU:0 "Preußisch-Schleswig" # // 
  dyn_c_schleswig_anarchy:0 "Kommune Schleswig" # // 
  #Country Names Plus
  #dyn_c_schleswig_monarchy:0 "Duchy of Schleswig" # // 
@@ -915,8 +924,8 @@
  dyn_c_holstein_republic:0 "Republik Holstein" # // 
  dyn_c_holstein_communist:0 "Volksrepublik Holstein" # // 
  dyn_c_holstein_communistvote:0 "Freie Volksrepublik Holstein" # // 
- dyn_c_holstein_theocratic:0 "Heiliger Holstein" # // 
- dyn_c_holstein_theocraticvote:0 "Evangelische Union in Holstein" # // 
+ dyn_c_holstein_theocratic:0 "Evangelischer Staat Holstein" # // 
+ dyn_c_holstein_theocraticvote:0 "Evangelische Union Holstein" # // 
  dyn_c_holstein_anarchy:0 "Holsteinische Kommune" # // 
  #Country Names Plus
  #dyn_c_holstein_monarchy:0 "Duchy of Holstein" # // 
@@ -933,13 +942,13 @@
 
 
 
- dyn_c_lubeck_absolutist_monarchy:0 "Freie und Hansestadt Lübeck" # // 
- dyn_c_lubeck_monarchy:0 "Freie und Hansestadt Lübeck" # // 
- dyn_c_lubeck_dictatorship:0 "Freie und Hansestadt Lübeck" # // 
+ dyn_c_lubeck_absolutist_monarchy:0 "Freie Hansestadt Lübeck" # // 
+ dyn_c_lubeck_monarchy:0 "Freie Hansestadt Lübeck" # // 
+ dyn_c_lubeck_dictatorship:0 "Freie Hansestadt Lübeck" # // 
  dyn_c_lubeck_republic:0 "Lübecker Stadtrat" # // 
  dyn_c_lubeck_communist:0 "Lübecker Arbeiterrat" # // 
  dyn_c_lubeck_communistvote:0 "Demokratische Volksrepublik Lübeck" # // 
- dyn_c_lubeck_theocratic:0 "Protestantische Einheitsgemeinde Stadt Lübeck" # // 
+ dyn_c_lubeck_theocratic:0 "Protestantische Einheitsgemeinde Lübeck" # // 
  dyn_c_lubeck_theocraticvote:0 "Freie Protestantische Stadt Lübeck" # // 
  dyn_c_lubeck_anarchy:0 "Freie Lübecker Kommune" # // 
  #Country Names Plus
@@ -958,12 +967,12 @@
  dyn_c_anhalt_absolutist_monarchy:0 "Herzogtum Anhalt" # // 
  dyn_c_anhalt_monarchy:0 "Herzogtum Anhalt" # // 
  dyn_c_anhalt_dictatorship:0 "Unabhängige Republik Anhalt" # // 
- dyn_c_anhalt_republic:0 "Anhaltinische Stadtrat" # // 
+ dyn_c_anhalt_republic:0 "Anhalter Stadtrat" # // 
  dyn_c_anhalt_communist:0 "Dessauer Arbeitergenossenschaft" # // 
  dyn_c_anhalt_communistvote:0 "Sozialdemokratische Republik Anhalt" # // 
  dyn_c_anhalt_theocratic:0 "Lutherstadt Dessau" # // 
  dyn_c_anhalt_theocraticvote:0 "Protestantische Republik Anhalt" # // 
- dyn_c_anhalt_anarchy:0 "Rote Anhaltische Gemeinden" # // 
+ dyn_c_anhalt_anarchy:0 "Rote Anhalter Gemeinden" # // 
  #Country Names Plus
  #dyn_c_anhalt_monarchy:0 "Principality of Anhalt" # // 
  #dyn_c_anhalt_republic:0 "Anhalt Republic" # // 
@@ -979,13 +988,13 @@
 
  dyn_c_brunswick_absolutist_monarchy:0 "Herzogtum Braunschweig" # // 
  dyn_c_brunswick_monarchy:0 "Konstitutionelles Herzogtum Braunschweig" # // 
- dyn_c_brunswick_dictatorship:0 "Unabhängige Stadt Brunswick" # // #
+ dyn_c_brunswick_dictatorship:0 "Unabhängiger Staat Braunschweig" # // #
  dyn_c_brunswick_republic:0 "Braunschweiger Stadtrat" # // 
  dyn_c_brunswick_communist:0 "Braunschweiger Arbeitergenossenschaft" # // 
  dyn_c_brunswick_communistvote:0 "Sozialistische Volksrepublik Braunschweig" # // 
  dyn_c_brunswick_theocratic:0 "Heilig-Braunschweig" # // 
  dyn_c_brunswick_theocraticvote:0 "Protestantische Republik Braunschweig" # // 
- dyn_c_brunswick_anarchy:0 "Braunschweigische Gemeinden" # // 
+ dyn_c_brunswick_anarchy:0 "Braunschweiger Gemeinden" # // 
  #Country Names Plus
  #dyn_c_brunswick_monarchy:0 "Duchy of Brunswick" # // 
  #dyn_c_brunswick_republic:0 "Free State of Brunswick" # // 
@@ -1003,11 +1012,11 @@
  dyn_c_hanover_monarchy:0 "Königreich Hannover" # // 
  dyn_c_hanover_dictatorship:0 "Freie Republik Hannover" # // 
  dyn_c_hanover_republic:0 "Hannoversche Republik" # // 
- dyn_c_hanover_communist:0 "Elbe Arbeiter Union" # // 
+ dyn_c_hanover_communist:0 "Elbische Arbeiter Union" # // 
  dyn_c_hanover_communistvote:0 "Demokratische Volksrepublik Hannover" # // 
  dyn_c_hanover_theocratic:0 "Lutherischer Bund" # // 
  dyn_c_hanover_theocraticvote:0 "Gesegnete Nördliche Republik" # // 
- dyn_c_hanover_anarchy:0 "Rotes Hannover" # // 
+ dyn_c_hanover_anarchy:0 "Elbkommunen" # Communes of the Elbe
  #Country Names Plus
  #dyn_c_hanover_monarchy:0 "Kingdom of Hanover" # // 
  #dyn_c_hanover_republic:0 "Hanoverian Republic" # // 
@@ -1023,14 +1032,14 @@
 
 
 
- dyn_c_hamburg_absolutist_monarchy:0 "Freie und Hansestadt Hamburg" # // 
- dyn_c_hamburg_monarchy:0 "Freie und Hansestadt Hamburg" # // 
- dyn_c_hamburg_dictatorship:0 "Freie und Hansestadt Hamburg" # // 
+ dyn_c_hamburg_absolutist_monarchy:0 "Freie Hansestadt Hamburg" # // 
+ dyn_c_hamburg_monarchy:0 "Freie Hansestadt Hamburg" # // 
+ dyn_c_hamburg_dictatorship:0 "Freie Hansestadt Hamburg" # // 
  dyn_c_hamburg_republic:0 "Hamburger Stadtrat" # // 
- dyn_c_hamburg_communist:0 "Gewerkschaft der Arbeitnehmer Hamburg" # // 
+ dyn_c_hamburg_communist:0 "Gewerkschaft der Arbeitnehmer Hamburgs" # // 
  dyn_c_hamburg_communistvote:0 "Volksrepublik Hamburg" # // 
- dyn_c_hamburg_theocratic:0 "Protestantische Einheitsgemeinde Stadt Hamburg" # // 
- dyn_c_hamburg_theocraticvote:0 "Freie Protestantische Stadt Hamburg" # // 
+ dyn_c_hamburg_theocratic:0 "Protestantische Einheitsgemeinde Hamburg" # // 
+ dyn_c_hamburg_theocraticvote:0 "Protestantische Freistadt Hamburg" # // 
  dyn_c_hamburg_anarchy:0 "Freie Hamburger Kommune" # // 
  #Country Names Plus
  #dyn_c_hamburg_monarchy:0 "County of Hamburg" # // 
@@ -1045,14 +1054,14 @@
 
 
 
- dyn_c_bremen_absolutist_monarchy:0 "Freie Hansestadt Bremen Bremen" # // 
- dyn_c_bremen_monarchy:0 "Freie Hansestadt Bremen Bremen" # // 
- dyn_c_bremen_dictatorship:0 "Freie Hansestadt Bremen Bremen" # // 
+ dyn_c_bremen_absolutist_monarchy:0 "Freie Hansestadt Bremen" # // 
+ dyn_c_bremen_monarchy:0 "Freie Hansestadt Bremen" # // 
+ dyn_c_bremen_dictatorship:0 "Freie Hansestadt Bremen" # // 
  dyn_c_bremen_republic:0 "Bremer Stadtrat" # // 
  dyn_c_bremen_communist:0 "Arbeitergenossenschaft Bremen" # // 
  dyn_c_bremen_communistvote:0 "Freie Volksrepublik Bremen" # // 
- dyn_c_bremen_theocratic:0 "Protestantische Einheitsgemeinde Stadt Bremen" # // 
- dyn_c_bremen_theocraticvote:0 "Freie Protestantische Stadt Bremen" # // 
+ dyn_c_bremen_theocratic:0 "Protestantische Einheitsgemeinde Bremen" # // 
+ dyn_c_bremen_theocraticvote:0 "Protestantische Freistadt Bremen" # // 
  dyn_c_bremen_anarchy:0 "Freie Bremer Gemeinden" # // 
  #Country Names Plus
  #dyn_c_bremen_monarchy:0 "County of Bremen" # // 
@@ -1069,13 +1078,13 @@
 
  dyn_c_oldenburg_absolutist_monarchy:0 "Großherzogtum Oldenburg" # // 
  dyn_c_oldenburg_monarchy:0 "Konstitutionelles Großherzogtum Oldenburg" # // 
- dyn_c_oldenburg_dictatorship:0 "Großherzogtum Groß-Oldenburg" # // 
+ dyn_c_oldenburg_dictatorship:0 "Groß-Oldenburg" # // 
  dyn_c_oldenburg_republic:0 "Oldenburger Stadtrat" # // 
  dyn_c_oldenburg_communist:0 "Sozialistische Republik Oldenburg" # // 
  dyn_c_oldenburg_communistvote:0 "Demokratische Volksrepublik Oldenburg" # // 
- dyn_c_oldenburg_theocratic:0 "Protestantischer Bund" # // 
- dyn_c_oldenburg_theocraticvote:0 "Freie Protestantischer Stadt Oldenburg" # // 
- dyn_c_oldenburg_anarchy:0 "Rotes Oldenburg" # // 
+ dyn_c_oldenburg_theocratic:0 "Protestantischer Bund Oldenburg" # // 
+ dyn_c_oldenburg_theocraticvote:0 "Protestantische Freistadt Oldenburg" # // 
+ dyn_c_oldenburg_anarchy:0 "Oldenburger Gemeinden" # Communes of Oldenburg
  #Country Names Plus
  #dyn_c_oldenburg_monarchy:0 "Grand Duchy of Oldenburg" # // 
  #dyn_c_oldenburg_republic:0 "Free State of Oldenburg" # // 
@@ -1145,11 +1154,11 @@
  dyn_c_sorbia_anarchy:0 "Serbski anarchiski komuna" # // 
  #subject
  dyn_c_sorbia_subject_FRA:0 "Sorabie française" # // 
- dyn_c_sorbia_subject_PRU:0 "Preußisches Sorben" # // 
- dyn_c_sorbia_subject_AUS:0 "Österreichisches Sorben" # // 
- dyn_c_sorbia_subject_GER:0 "Deutsche Sorben" # // 
- dyn_c_sorbia_subject_NGF:0 "Norddeutscher Sorben" # // 
- dyn_c_sorbia_subject_SGF:0 "Süddeutscher Sorben" # // 
+ dyn_c_sorbia_subject_PRU:0 "Preußisch-Lausitz" # // 
+ dyn_c_sorbia_subject_AUS:0 "Österreichisch-Lausitz" # // 
+ dyn_c_sorbia_subject_GER:0 "Autonomer Staat der Sorben" # // Autonomous Sorbian State
+ dyn_c_sorbia_subject_NGF:0 "Norddeutsch-Lausitz" # // 
+ dyn_c_sorbia_subject_SGF:0 "Süddeutsch-Lausitz" # // 
 
 
 
@@ -1167,33 +1176,33 @@
  #dyn_c_westphalia_republic:0 "Republic of Westphalia" # // 
  #subject
  dyn_c_westphalia_subject_FRA:0 "Westphalie française" # // 
- dyn_c_westphalia_subject_PRU:0 "Preußisches Westfalen" # // 
- dyn_c_westphalia_subject_AUS:0 "Österreichisches Westfalen" # // 
- dyn_c_westphalia_subject_GER:0 "Deutsche Westfalen" # // 
- dyn_c_westphalia_subject_NGF:0 "Norddeutscher Westfalen" # // 
- dyn_c_westphalia_subject_SGF:0 "Süddeutscher Westfalen" # // 
+ dyn_c_westphalia_subject_PRU:0 "Preußisch-Westfalen" # // 
+ dyn_c_westphalia_subject_AUS:0 "Österreichisch-Westfalen" # // 
+ dyn_c_westphalia_subject_GER:0 "Freistaat Westfalen" # // 
+ dyn_c_westphalia_subject_NGF:0 "Norddeutsch-Westfalen" # // 
+ dyn_c_westphalia_subject_SGF:0 "Süddeutsch-Westfalen" # // 
 
 
 
  dyn_c_rhineland_absolutist_monarchy:0 "Königreich Rheinland" # // 
  dyn_c_rhineland_monarchy:0 "Königreich Rheinland" # // 
- dyn_c_rhineland_dictatorship:0 "Neu rheinisches Reich" # // 
- dyn_c_rhineland_republic:0 "rheinisches Republik" # // 
- dyn_c_rhineland_communist:0 "rheinische Räterepublik" # // 
- dyn_c_rhineland_communistvote:0 "rheinische Demokratische Republik" # // 
+ dyn_c_rhineland_dictatorship:0 "Rheinischer Wehrstaat" # // Rhenish Defence State (in reference to the narrative of the Rhineland as a bulwark against France)
+ dyn_c_rhineland_republic:0 "Republik des Rheinlands" # // Republic of the Rhineland
+ dyn_c_rhineland_communist:0 "Rheinische Demokratische Republik" # // 
+ dyn_c_rhineland_communistvote:0 "Rheinischer Arbeiterbund" # // Rhenish Workers' Union
  dyn_c_rhineland_theocratic:0 "Katholischer Staat Rheinland" # // 
  dyn_c_rhineland_theocraticvote:0 "Katholische Republik Rheinland" # // 
- dyn_c_rhineland_anarchy:0 "rheinische anarchistische Kommunen" # // 
+ dyn_c_rhineland_anarchy:0 "Rheinische anarchistische Kommunen" # // 
  #Country Names Plus
  #dyn_c_rhineland_monarchy:0 "United Rhenish Duchies" # // 
  #dyn_c_rhineland_republic:0 "Republic of the Rhineland" # // 
  #subject
  dyn_c_rhineland_subject_FRA:0 "Rhénanie française" # // 
- dyn_c_rhineland_subject_PRU:0 "Preußisches Rheinland" # // 
- dyn_c_rhineland_subject_AUS:0 "Österreichisches Rheinland" # // 
- dyn_c_rhineland_subject_GER:0 "Deutsche Rheinland" # // 
- dyn_c_rhineland_subject_NGF:0 "Norddeutscher Rheinland" # // 
- dyn_c_rhineland_subject_SGF:0 "Süddeutscher Rheinland" # // 
+ dyn_c_rhineland_subject_PRU:0 "Preußisch-Rheinland" # // 
+ dyn_c_rhineland_subject_AUS:0 "Österreichisch-Rheinland" # // 
+ dyn_c_rhineland_subject_GER:0 "Freistaat Rheinland" # // 
+ dyn_c_rhineland_subject_NGF:0 "Norddeutsch-Rheinland" # // 
+ dyn_c_rhineland_subject_SGF:0 "Süddeutsch-Rheinland" # // 
 
 
 
@@ -1213,11 +1222,11 @@
  #dyn_c_saxony_communist:0 "Saxon Council Republic" # // 
  #subject
  dyn_c_saxony_subject_FRA:0 "Saxe française" # // 
- dyn_c_saxony_subject_PRU:0 "Preußisches Sachsen" # // 
- dyn_c_saxony_subject_AUS:0 "Österreichisches Sachsen" # // 
- dyn_c_saxony_subject_GER:0 "Deutsche Sachsen" # // 
- dyn_c_saxony_subject_NGF:0 "Norddeutscher Sachsen" # // 
- dyn_c_saxony_subject_SGF:0 "Süddeutscher Sachsen #
+ dyn_c_saxony_subject_PRU:0 "Preußisch-Sachsen" # // 
+ dyn_c_saxony_subject_AUS:0 "Österreichisch-Sachsen" # // 
+ dyn_c_saxony_subject_GER:0 "Freistaat Sachsen" # // 
+ dyn_c_saxony_subject_NGF:0 "Norddeutsch-Sachsen" # // 
+ dyn_c_saxony_subject_SGF:0 "Süddeutsch-Sachsen #
 
 
 
@@ -1225,9 +1234,9 @@
  dyn_c_weimar_monarchy:0 "Herzogtum Sachsen-Weimar-Eisenach" # // 
  dyn_c_weimar_dictatorship:0 "Freistaat Sachsen-Weimar-Eisenach" # // 
  dyn_c_weimar_republic:0 "Weimarer Stadtrat" # // 
- dyn_c_weimar_communist:0 "Betriebsrat Weimar" # // 
+ dyn_c_weimar_communist:0 "Arbeiterstadt Weimar" # // Workers' City of Weimar
  dyn_c_weimar_communistvote:0 "Volksrepublik Weimar" # // 
- dyn_c_weimar_theocratic:0 "Lutherstadt Weimar" # // 
+ dyn_c_weimar_theocratic:0 "Hochstift Weimar" # // 
  dyn_c_weimar_theocraticvote:0 "Freie Lutherstadt Weimar" # // 
  dyn_c_weimar_anarchy:0 "Kommune Weimar" # // 
  #Country Names Plus
@@ -1235,11 +1244,11 @@
  #dyn_c_weimar_republic:0 "Free State of Saxe-Weimar" # // 
  #subject
  dyn_c_weimar_subject_FRA:0 "Weimar français" # // 
- dyn_c_weimar_subject_PRU:0 "Preußisches Weimar" # // 
- dyn_c_weimar_subject_AUS:0 "Österreichisches Weimar" # // 
- dyn_c_weimar_subject_GER:0 "Deutsche Weimar" # // 
- dyn_c_weimar_subject_NGF:0 "Norddeutscher Weimar" # // 
- dyn_c_weimar_subject_SGF:0 "Süddeutscher Weimar" # // 
+ dyn_c_weimar_subject_PRU:0 "Preußisch-Weimar" # // 
+ dyn_c_weimar_subject_AUS:0 "Österreichisch-Weimar" # // 
+ dyn_c_weimar_subject_GER:0 "Freikreis Weimar" # // 
+ dyn_c_weimar_subject_NGF:0 "Norddeutsch-Weimar" # // 
+ dyn_c_weimar_subject_SGF:0 "Süddeutsch-Weimar" # // 
 
 
 
@@ -1248,8 +1257,8 @@
  dyn_c_schwarzburg_dictatorship:0 "Unabhängiger Staat Schwarzburg" # // 
  dyn_c_schwarzburg_republic:0 "Stadtrat Rudolstadt" # // 
  dyn_c_schwarzburg_communist:0 "Volksrepublik Rudolstadt" # // 
- dyn_c_schwarzburg_communistvote:0 "Volksrepublik of Rudolstadt" # // 
- dyn_c_schwarzburg_theocratic:0 "Lutherstadt Rudolstadt" # // 
+ dyn_c_schwarzburg_communistvote:0 "Volksrepublik Rudolstadt" # // 
+ dyn_c_schwarzburg_theocratic:0 "Hochstift Rudolstadt" # // 
  dyn_c_schwarzburg_theocraticvote:0 "Evangelische Republik Rudolstadt" # // 
  dyn_c_schwarzburg_anarchy:0 "Freie Kommune Schwarzburg" # // 
  #Country Names Plus
@@ -1257,11 +1266,11 @@
  #dyn_c_schwarzburg_republic:0 "Free State of Schwarzburg" # // 
  #subject
  dyn_c_schwarzburg_subject_FRA:0 "Schwarzburg français" # // 
- dyn_c_schwarzburg_subject_PRU:0 "Preußisches Schwarzburg" # // 
- dyn_c_schwarzburg_subject_AUS:0 "Österreichisches Schwarzburg" # // 
- dyn_c_schwarzburg_subject_GER:0 "Deutsche Schwarzburg" # // 
- dyn_c_schwarzburg_subject_NGF:0 "Norddeutscher Schwarzburg" # // 
- dyn_c_schwarzburg_subject_SGF:0 "Süddeutscher Schwarzburg" # // 
+ dyn_c_schwarzburg_subject_PRU:0 "Preußisch-Schwarzburg" # // 
+ dyn_c_schwarzburg_subject_AUS:0 "Österreichisch-Schwarzburg" # // 
+ dyn_c_schwarzburg_subject_GER:0 "Freikreis Schwarzburg" # // 
+ dyn_c_schwarzburg_subject_NGF:0 "Norddeutsch-Schwarzburg" # // 
+ dyn_c_schwarzburg_subject_SGF:0 "Süddeutsch-Schwarzburg" # // 
 
 
 
@@ -1269,9 +1278,9 @@
  dyn_c_coburg_monarchy:0 "Herzogtum Sachsen-Coburg-Gotha" # // 
  dyn_c_coburg_dictatorship:0 "Unabhängiger Staat Sachsen-Coburg-Gotha" # // 
  dyn_c_coburg_republic:0 "Stadtrat Coburg" # // 
- dyn_c_coburg_communist:0 "Coburger Betriebsrat" # // 
+ dyn_c_coburg_communist:0 "Arbeiterstadt Coburg" # // Workers' City of Coburg
  dyn_c_coburg_communistvote:0 "Demokratische Republik Coburg" # // 
- dyn_c_coburg_theocratic:0 "Lutherstadt Coburg" # // 
+ dyn_c_coburg_theocratic:0 "Hochstift Coburg" # // 
  dyn_c_coburg_theocraticvote:0 "Freie Lutherstadt Coburg" # // 
  dyn_c_coburg_anarchy:0 "Kommune Coburg" # // 
  #Country Names Plus
@@ -1279,11 +1288,11 @@
  #dyn_c_coburg_republic:0 "Free State of Coburg-Gotha" # // 
  #subject
  dyn_c_coburg_subject_FRA:0 "Cobourg français" # // 
- dyn_c_coburg_subject_PRU:0 "Preußisches Coburg" # // 
- dyn_c_coburg_subject_AUS:0 "Österreichisches Coburg" # // 
- dyn_c_coburg_subject_GER:0 "Deutsche Coburg" # // 
- dyn_c_coburg_subject_NGF:0 "Norddeutscher Coburg" # // 
- dyn_c_coburg_subject_SGF:0 "Süddeutscher Coburg" # // 
+ dyn_c_coburg_subject_PRU:0 "Preußisch-Coburg" # // 
+ dyn_c_coburg_subject_AUS:0 "Österreichisch-Coburg" # // 
+ dyn_c_coburg_subject_GER:0 "Freikreis Coburg" # // 
+ dyn_c_coburg_subject_NGF:0 "Norddeutsch-Coburg" # // 
+ dyn_c_coburg_subject_SGF:0 "Süddeutsch-Coburg" # // 
 
 
 
@@ -1293,7 +1302,7 @@
  dyn_c_meiningen_republic:0 "Meininger Stadtrat" # // 
  dyn_c_meiningen_communist:0 "Betriebsrat Meiningen" # // 
  dyn_c_meiningen_communistvote:0 "Peoples Republic of Meiningen" # // 
- dyn_c_meiningen_theocratic:0 "Lutherstadt Meiningen" # // 
+ dyn_c_meiningen_theocratic:0 "Hochstift Meiningen" # // 
  dyn_c_meiningen_theocraticvote:0 "Freie Lutherstadt Meiningen" # // 
  dyn_c_meiningen_anarchy:0 "Freie Kommune Meiningen" # // 
  dyn_c_meiningen_anarchy:0 "Free Communes of Meiningen" # // 
@@ -1302,11 +1311,11 @@
  #dyn_c_meiningen_republic:0 "Free State of Saxe-Meiningen" # // 
  #subject
  dyn_c_meiningen_subject_FRA:0 "français Meiningen" # // 
- dyn_c_meiningen_subject_PRU:0 "Preußisches Meiningen" # // 
- dyn_c_meiningen_subject_AUS:0 "Österreichisches Meiningen" # // 
- dyn_c_meiningen_subject_GER:0 "Deutsche Meiningen" # // 
- dyn_c_meiningen_subject_NGF:0 "Norddeutscher Meiningen" # // 
- dyn_c_meiningen_subject_SGF:0 "Süddeutscher Meiningen" # // 
+ dyn_c_meiningen_subject_PRU:0 "Preußisch-Meiningen" # // 
+ dyn_c_meiningen_subject_AUS:0 "Österreichisch-Meiningen" # // 
+ dyn_c_meiningen_subject_GER:0 "Freikreis Meiningen" # // 
+ dyn_c_meiningen_subject_NGF:0 "Norddeutsch-Meiningen" # // 
+ dyn_c_meiningen_subject_SGF:0 "Süddeutsch-Meiningen" # // 
 
 
 
@@ -1315,8 +1324,8 @@
  dyn_c_hessenkassel_dictatorship:0 "Freistaat Hessen" # // 
  dyn_c_hessenkassel_republic:0 "Republik Hessen" # // 
  dyn_c_hessenkassel_communist:0 "Kasseler Arbeiterrepublik" # // 
- dyn_c_hessenkassel_communistvote:0 "Sozialistische Republik Kassel" # // 
- dyn_c_hessenkassel_theocratic:0 "Lutherstadt Hessen" # // 
+ dyn_c_hessenkassel_communistvote:0 "Sozialistische Republik Hessen" # // 
+ dyn_c_hessenkassel_theocratic:0 "Hochstift Kassel" # // 
  dyn_c_hessenkassel_theocraticvote:0 "Freie Lutherische Republik Hessen" # // 
  dyn_c_hessenkassel_anarchy:0 "Anarchistische Kommunen von Hessen" # // 
  #Country Names Plus
@@ -1324,11 +1333,11 @@
  #dyn_c_hesse_kassel_republic:0 "Kassel Free State" # // 
  #subject
  dyn_c_hessenkassel_subject_FRA:0 "Hesse français" # // 
- dyn_c_hessenkassel_subject_PRU:0 "Preußisches Hesse" # // 
- dyn_c_hessenkassel_subject_AUS:0 "Österreichisches Hesse" # // 
- dyn_c_hessenkassel_subject_GER:0 "Deutsche Hesse" # // 
- dyn_c_hessenkassel_subject_NGF:0 "Norddeutscher Hesse" # // 
- dyn_c_hessenkassel_subject_SGF:0 "Süddeutscher Hesse" # // 
+ dyn_c_hessenkassel_subject_PRU:0 "Preußisch-Hessen" # // 
+ dyn_c_hessenkassel_subject_AUS:0 "Österreichisch-Hessen" # // 
+ dyn_c_hessenkassel_subject_GER:0 "Freikreis Kassel" # // 
+ dyn_c_hessenkassel_subject_NGF:0 "Norddeutsch-Hessen" # // 
+ dyn_c_hessenkassel_subject_SGF:0 "Süddeutsch-Hessen" # // 
 
 
 
@@ -1346,11 +1355,11 @@
  #dyn_c_hesse_republic:0 "People's State of Hesse" # // 
  #subject
  dyn_c_hesse_subject_FRA:0 "Hesse français" # // 
- dyn_c_hesse_subject_PRU:0 "Preußisches Hesse" # // 
- dyn_c_hesse_subject_AUS:0 "Österreichisches Hesse" # // 
- dyn_c_hesse_subject_GER:0 "Deutsche Hesse" # // 
- dyn_c_hesse_subject_NGF:0 "Norddeutscher Hesse" # // 
- dyn_c_hesse_subject_SGF:0 "Süddeutscher Hesse" # // 
+ dyn_c_hesse_subject_PRU:0 "Preußisch-Hessen" # // 
+ dyn_c_hesse_subject_AUS:0 "Österreichisch-Hessen" # // 
+ dyn_c_hesse_subject_GER:0 "Freistaat Hessen" # // 
+ dyn_c_hesse_subject_NGF:0 "Norddeutsch-Hessen" # // 
+ dyn_c_hesse_subject_SGF:0 "Süddeutsch-Hessen" # // 
 
 
 
@@ -1360,7 +1369,7 @@
  dyn_c_frankfurt_republic:0 "Frankfurter Republik" # // 
  dyn_c_frankfurt_communist:0 "Rotes Frankfurt" # // 
  dyn_c_frankfurt_communistvote:0 "Betriebsrat der Stadt Frankfurt" # // 
- dyn_c_frankfurt_theocratic:0 "St. Pauls Heilige Stadt Frankfurt" # // 
+ dyn_c_frankfurt_theocratic:0 "Heilige Paulsstadt Frankfurt" # // 
  dyn_c_frankfurt_theocraticvote:0 "Christliche Union Frankfurt" # // 
  dyn_c_frankfurt_anarchy:0 "Rote Kommune Frankfurt" # // 
  #Country Names Plus
@@ -1368,11 +1377,11 @@
  #dyn_c_frankfurt_republic:0 "Free City of Frankfurt" # // 
  #subject
  dyn_c_frankfurt_subject_FRA:0 "Francfort français" # // 
- dyn_c_frankfurt_subject_PRU:0 "Preußisches Frankfurt" # // 
- dyn_c_frankfurt_subject_AUS:0 "Österreichisches Frankfurt" # // 
- dyn_c_frankfurt_subject_GER:0 "Deutsche Frankfurt" # // 
- dyn_c_frankfurt_subject_NGF:0 "Norddeutscher Frankfurt" # // 
- dyn_c_frankfurt_subject_SGF:0 "Süddeutscher Frankfurt" # // 
+ dyn_c_frankfurt_subject_PRU:0 "Preußisch-Frankfurt" # // 
+ dyn_c_frankfurt_subject_AUS:0 "Österreichisch-Frankfurt" # // 
+ dyn_c_frankfurt_subject_GER:0 "Freistadt Frankfurt" # // 
+ dyn_c_frankfurt_subject_NGF:0 "Norddeutsch-Frankfurt" # // 
+ dyn_c_frankfurt_subject_SGF:0 "Süddeutsch-Frankfurt" # // 
 
 
 
@@ -1382,7 +1391,7 @@
  dyn_c_waldeck_republic:0 "Arolsen Stadtrat" # // 
  dyn_c_waldeck_communist:0 "Betriebsrat von Arolsen" # // 
  dyn_c_waldeck_communistvote:0 "Volksrepublik Arolsen" # // 
- dyn_c_waldeck_theocratic:0 "Lutherstadt Arolsen" # // 
+ dyn_c_waldeck_theocratic:0 "Hochstift Arolsen" # // 
  dyn_c_waldeck_theocraticvote:0 "Heilige Republik Arolsen" # // 
  dyn_c_waldeck_anarchy:0 "Freie Kommune Waldeck" # // 
  #Country Names Plus
@@ -1390,11 +1399,11 @@
  #dyn_c_waldeck_republic:0 "Free State of Waldeck" # // 
  #subject
  dyn_c_waldeck_subject_FRA:0 "Waldeck français" # // 
- dyn_c_waldeck_subject_PRU:0 "Preußisches Waldeck" # // 
- dyn_c_waldeck_subject_AUS:0 "Österreichisches Waldeck" # // 
- dyn_c_waldeck_subject_GER:0 "Deutsche Waldeck" # // 
- dyn_c_waldeck_subject_NGF:0 "Norddeutscher Waldeck" # // 
- dyn_c_waldeck_subject_SGF:0 "Süddeutscher Waldeck" # // 
+ dyn_c_waldeck_subject_PRU:0 "Preußisch-Waldeck" # // 
+ dyn_c_waldeck_subject_AUS:0 "Österreichisch-Waldeck" # // 
+ dyn_c_waldeck_subject_GER:0 "Freikreis Waldeck" # // 
+ dyn_c_waldeck_subject_NGF:0 "Norddeutsch-Waldeck" # // 
+ dyn_c_waldeck_subject_SGF:0 "Süddeutsch-Waldeck" # // 
 
 
 
@@ -1404,25 +1413,26 @@
  dyn_c_nassau_republic:0 "Nassauischer Stadtrat" # // 
  dyn_c_nassau_communist:0 "Nassauische Arbeiterrepublik" # // 
  dyn_c_nassau_communistvote:0 "Rote Stadt Nassau" # // 
- dyn_c_nassau_theocratic:0 "Diözese Nassau" # // 
- dyn_c_nassau_theocraticvote:0 "Demokratische Diözese von Nassau" # // 
+ dyn_c_nassau_theocratic:0 "Hochstift Nassau" # // 
+ dyn_c_nassau_theocraticvote:0 "Demokratischer Hochstift von Nassau" # // 
  dyn_c_nassau_anarchy:0 "Anarchistische Gemeinden von Nassau" # // 
  #Country Names Plus
  #dyn_c_nassau_monarchy:0 "Duchy of Nassau" # // 
  #dyn_c_nassau_republic:0 "Republic of Nassau" # // 
  #subject
  dyn_c_nassau_subject_FRA:0 "Nassau français" # // 
- dyn_c_nassau_subject_PRU:0 "Preußisches Nassau" # // 
- dyn_c_nassau_subject_AUS:0 "Österreichisches Nassau" # // 
- dyn_c_nassau_subject_GER:0 "Deutsche Nassau" # // 
- dyn_c_nassau_subject_NGF:0 "Norddeutscher Nassau" # // 
- dyn_c_nassau_subject_SGF:0 "Süddeutscher Nassau" # // 
+ dyn_c_nassau_subject_PRU:0 "Preußisch-Nassau" # // 
+ dyn_c_nassau_subject_AUS:0 "Österreichisch-Nassau" # // 
+ dyn_c_nassau_subject_GER:0 "Freikreis Nassau" # // 
+ dyn_c_nassau_subject_NGF:0 "Norddeutsch-Nassau" # // 
+ dyn_c_nassau_subject_SGF:0 "Süddeutsch-Nassau" # // 
 
- #No idea who that is // supposed to be somewhere between belgium and rhineland #
- #dyn_c_limburg_monarchy:0 "Duchy of Limburg" # // 
- #dyn_c_limburg_republic:0 "Free State of Limburg" # // 
- #dyn_c_limburg_theocratic:0 "Bishopric of Limburg" # // 
- #dyn_c_limburg_communist:0 "Limburg Commune" # // 
+ #No idea who that is // supposed to be somewhere between belgium and rhineland // 
+ #Its a Dutch duchy, which is controlled by Belgium in 1836 // appears after Treaty of London if 24 points are chosen (i.e. the historical outcome)
+ #dyn_c_limburg_monarchy:0 "Hertogdom Limburg" # // Duchy of Limburg
+ #dyn_c_limburg_republic:0 "Vrijstaat Limburg" # // Free State of Limburg
+ #dyn_c_limburg_theocratic:0 "Bisdom Limburg" # // Bishopric of Limburg
+ #dyn_c_limburg_communist:0 "Limburgse Gemeente" # // Limburgian Commune
 
  #Why? Who? How?
  #dyn_c_posen_monarchy:0 "Grand Duchy of Posen" # // 
@@ -1948,7 +1958,7 @@
  dyn_c_UBD_subject_BRZ:0 "Províncias bálticos Brasileiras" # // 
  dyn_c_UBD_subject_SPA:0 "Provincias Bálticos Españoles" # // 
  dyn_c_UBD_subject_ITA:0 "Provincias baltici Italiani" # // 
- dyn_c_UBD_subject_NET:0 "Nederlandse Baltisch Provinces" # // 
+ dyn_c_UBD_subject_NET:0 "Nederlandsche Baltisch Provinces" # // 
  dyn_c_UBD_subject_GER:0 "Vereinigtes Baltisches Provinzen" # // 
  dyn_c_UBD_subject_PRU:0 "Prußisches Baltisches Provinzen" # // 
  dyn_c_UBD_subject_AUS:0 "Österreichisches Baltisches Provinzen" # // 
@@ -1982,7 +1992,7 @@
  dyn_c_LIT_subject_BRZ:0 "Lituânia Brasileira" # // 
  dyn_c_LIT_subject_SPA:0 "Lituania Española" # // 
  dyn_c_LIT_subject_ITA:0 "Lituania Italiana" # // 
- dyn_c_LIT_subject_NET:0 "Nederlandse Litouwen" # // 
+ dyn_c_LIT_subject_NET:0 "Nederlandsche Litouwen" # // 
  dyn_c_LIT_subject_GER:0 "Deutsches Litauen" # // 
  dyn_c_LIT_subject_PRU:0 "Prußisches Litauen" # // 
  dyn_c_LIT_subject_AUS:0 "Österreichisches Litauen" # // 
@@ -2027,7 +2037,7 @@
  dyn_c_LAT_subject_BRZ:0 "Letónia Brasileira" # // 
  dyn_c_LAT_subject_SPA:0 "Letonia Española" # // 
  dyn_c_LAT_subject_ITA:0 "Lettonia Italiana" # // 
- dyn_c_LAT_subject_NET:0 "Nederlandse Letland" # // 
+ dyn_c_LAT_subject_NET:0 "Nederlandsche Letland" # // 
  dyn_c_LAT_subject_GER:0 "Deutsches Lettland" # // 
  dyn_c_LAT_subject_PRU:0 "Prußisches Lettland" # // 
  dyn_c_LAT_subject_AUS:0 "Österreichisches Lettland" # // 
@@ -2058,7 +2068,7 @@
  dyn_c_EST_subject_BRZ:0 "Estónia Brasileira" # // 
  dyn_c_EST_subject_SPA:0 "Estonia Española" # // 
  dyn_c_EST_subject_ITA:0 "Estonia Italiana" # // 
- dyn_c_EST_subject_NET:0 "Nederlandse Estland" # // 
+ dyn_c_EST_subject_NET:0 "Nederlandsche Estland" # // 
  dyn_c_EST_subject_GER:0 "Deutsches Estland" # // 
  dyn_c_EST_subject_PRU:0 "Prußisches Estland" # // 
  dyn_c_EST_subject_AUS:0 "Österreichisches Estland" # // 
@@ -2109,7 +2119,7 @@
  dyn_c_UKR_subject_BRZ:0 "Ucrânia Brasileira" # // 
  dyn_c_UKR_subject_SPA:0 "Ucrania Española" # // 
  dyn_c_UKR_subject_ITA:0 "Ucraina Italiana" # // 
- dyn_c_UKR_subject_NET:0 "Nederlandse Oekraïne" # // 
+ dyn_c_UKR_subject_NET:0 "Nederlandsche Oekraïne" # // 
  dyn_c_UKR_subject_GER:0 "Deutsches Ukraine" # // 
  dyn_c_UKR_subject_PRU:0 "Prußisches Ukraine" # // 
  dyn_c_UKR_subject_AUS:0 "Österreichisches Ukraine" # // 
@@ -2146,7 +2156,7 @@
  dyn_c_BYE_subject_BRZ:0 "Belarus Brasileiro" # // 
  dyn_c_BYE_subject_SPA:0 "Belarús Español" # // 
  dyn_c_BYE_subject_ITA:0 "Belarus Italiano" # // 
- dyn_c_BYE_subject_NET:0 "Nederlandse Belarus" # // 
+ dyn_c_BYE_subject_NET:0 "Nederlandsche Belarus" # // 
  dyn_c_BYE_subject_GER:0 "Deutsches Belarus" # // 
  dyn_c_BYE_subject_PRU:0 "Prußisches Belarus" # // 
  dyn_c_BYE_subject_AUS:0 "Österreichisches Belarus" # // 
@@ -2690,36 +2700,11 @@
 
 
 
-
- dyn_c_arabia_absolutist_monarchy:0 "Imārat ljazīrah lʻarabiyaiyah" # // 
- dyn_c_arabia_monarchy:0 "Imārat ljazīrah lʻarabiyaiyah al-dustūrīyah" # // 
- dyn_c_arabia_dictatorship:0 "Arabian Empire" # // 
- dyn_c_arabia_republic:0 "United Arab States" # // 
- dyn_c_arabia_communist:0 "Jumhūrīyat jazīratu alʻarab al-shaʻbīyah al-Muttaḥidah" # // 
- dyn_c_arabia_communistvote:0 "Socialist Arab Communities" # // 
- dyn_c_arabia_theocratic:0 "Greater Imamate of Arabia" # // 
- dyn_c_arabia_theocraticvote:0 "al-Jumhūrīyah ljazīrah lʻarabiyaiyah al-Islāmīyah" # // 
- dyn_c_arabia_anarchy:0 "Alʻarab mustaqill" # // 
  #Country Names Plus
  #dyn_c_arabia_egypt:0 "Cairene Empire" # // 
- #dyn_c_arabia_monarchy:0 "Arabian Empire" # // 
- #dyn_c_arabia_republic:0 "United Arab Republic" # // 
- #dyn_c_arabia_theocratic:0 "Arab Caliphate" # // 
- #dyn_c_arabia_communist:0 "Federation of Arab Socialist States" # // 
- #dyn_c_arabia_fascist:0 "Greater Arabian State" # // 
- #dyn_c_arabia_anarchy:0 "Autonomous Arab Majlises" # // 
 
 
 
- dyn_c_nejd_absolutist_monarchy:0 "Imārat Najd" # // 
- dyn_c_nejd_monarchy:0 "Imārat Najd" # // 
- dyn_c_nejd_dictatorship:0 "Dawlatu al-Najd" # // 
- dyn_c_nejd_republic:0 "al-Jumhūrīyah al-Najd" # // 
- dyn_c_nejd_communist:0 "Jumhūrīyat Najd al-shaʻbīyah" # // 
- dyn_c_nejd_communistvote:0 "Socialist State of Najd" # // 
- dyn_c_nejd_theocratic:0 "al-Dawlah Najd al-Islāmīyah" # // 
- dyn_c_nejd_theocraticvote:0 "al-Jumhūrīyah Najd" # // 
- dyn_c_nejd_anarchy:0 "Independent Communes of Najd" # // 
  #subject
  dyn_c_NEJ_subject_GBR:0 "British Nejd" # // 
  #Country Names Plus
@@ -2748,15 +2733,6 @@
 
 
 
- dyn_c_hedjaz_absolutist_monarchy:0 "Sharāfa al-Ḥijāz" # // 
- dyn_c_hedjaz_monarchy:0 "Sharāfa al-Ḥijāz" # // 
- dyn_c_hedjaz_dictatorship:0 "Dawlatu al-Ḥijāz" # // 
- dyn_c_hedjaz_republic:0 "al-Jumhūrīyah al-Ḥijāz" # // 
- dyn_c_hedjaz_communist:0 "Jumhūrīyat al-Ḥijāz al-shaʻbīyah" # // 
- dyn_c_hedjaz_communistvote:0 "Socialist Republic al-Ḥijāz" # // 
- dyn_c_hedjaz_theocratic:0 "al-Dawlah al-Ḥijāz al-Islāmīyah" # // 
- dyn_c_hedjaz_theocraticvote:0 "al-Jumhūrīyah al-Ḥijāz al-Islāmīyah" # // 
- dyn_c_hedjaz_anarchy:0 "Free Communes al-Ḥijāz" # // 
  #subject
  dyn_c_HDJ_subject_GBR:0 "British Hedjaz" # // 
  #Country Names Plus
@@ -3351,16 +3327,6 @@
 
 #China
 
- dyn_c_china_absolutist_monarchy:0 "Dà Qīng Dìguó" # // 大清帝國 | Manchu: Daicing Gurun ; ᡩᠠᡳ᠌ᠴᡳᠩ ᡤᡠᡵᡠᠨ
- dyn_c_china_monarchy:0 "Qīng Dìguó" # // 清帝國
- dyn_c_china_dictatorship:0 "Zhōnghuá Mínguó" # // 中華民國
- dyn_c_china_republic:0 "Zhōnghuá Gònghéguó" # // 中華共和国
- dyn_c_china_communist:0 "Zhōnghuá Rénmín Gònghéguó" # // 中華人民共和国
- dyn_c_china_communistvote:0 "Zhōnghuá Wěiyuánhuì Gònghéguó" # // 中華委员会共和國
- #中華 - Chinese // 委员会 - council // 共和國 - Republic
- dyn_c_china_theocratic:0 "Tianxia" # // 天下
- dyn_c_china_theocraticvote:0 "Zhōnghuá Tiāngònghéguó" # // 中華天共和国
- dyn_c_china_anarchy:0 "Zhōnghuá Lián Shěng" # // 中華聯省
  dyn_c_CHI_subject_GBR:0 "British China" # // 
  dyn_c_CHI_subject_FRA:0 "Chine française" # // 
 
@@ -3370,15 +3336,15 @@
 
  #太平天国 // Tàipíng Tiānguó // Taiping Heavenly Kingdom // tag:TPG - taiping
 
- dyn_c_taiping_absolutist_monarchy:0 "Tàipíng Dìguó" # // 太平帝國
- dyn_c_taiping_monarchy:0 "Tàipíng Dìguó" # // 太平帝國
- dyn_c_taiping_dictatorship:0 "" # // 
- dyn_c_taiping_republic:0 "" # // 
- dyn_c_taiping_communist:0 "" # // 
- dyn_c_taiping_communistvote:0 "" # // 
- dyn_c_taiping_theocratic:0 "Tàipíng Tiānguó" # // 太平天国
- dyn_c_taiping_theocraticvote:0 "Tàipíng Tiāngònghéguó" # // 太平天共和国
- dyn_c_taiping_anarchy:0 "" # // 
+ dyn_c_taiping_absolutist_monarchy:0 "Tàipíng Dìguó" # 太平帝國
+ dyn_c_taiping_monarchy:0 "Tàipíng Dìguó" # 太平帝國
+ dyn_c_taiping_dictatorship:0 "Zhōnghuá Mínguó" # // 中華民國 // National State of China
+ dyn_c_taiping_republic:0 "Zhōnghuá Gònghéguó" # // 中華共和国 // Republic of china
+ dyn_c_taiping_communist:0 "Zhōnghuá Rénmín Gònghéguó" # // 中華人民共和国 // People's Republic of China
+ dyn_c_taiping_communistvote:0 "Zhōnghuá Rénmín Gònghéguó" # // 中華人民共和国 // People's Republic of China
+ dyn_c_taiping_theocratic:0 "Tàipíng Tiānguó" # 太平天国
+ dyn_c_taiping_theocraticvote:0 "Tàipíng Tiāngònghéguó" # 太平天共和国
+ dyn_c_taiping_anarchy:0 "Zhōnghuá Lián Shěng" # // 中華聯省 // United Province of China
  dyn_c_TPG_subject_GBR:0 "British China" # // 
  dyn_c_TPG_subject_FRA:0 "Chine française" # // 
 
@@ -3582,7 +3548,7 @@
  dyn_c_JMB_subject_SIA:0 "Siamese Jambi" # // 
  dyn_c_JMB_subject_GBR:0 "British Jambi" # // 
  dyn_c_JMB_subject_FRA:0 "French Jambi" # // 
- dyn_c_JMB_subject_NET:0 "Nederlandse Jambi" # // 
+ dyn_c_JMB_subject_NET:0 "Nederlandsche Jambi" # // 
  dyn_c_JMB_subject_POR:0 "Portugese Jambi" # // 
  dyn_c_JMB_subject_SPA:0 "Spanish Jambi" # // 
  dyn_c_JMB_subject_GER:0 "Deutsches Jambi" # // 
@@ -3609,7 +3575,7 @@
  dyn_c_PRK_subject_SIA:0 "Siamese Perak" # // 
  dyn_c_PRK_subject_GBR:0 "British Perak" # // 
  dyn_c_PRK_subject_FRA:0 "français Perak" # // 
- dyn_c_PRK_subject_NET:0 "Nederlandse Perak" # // 
+ dyn_c_PRK_subject_NET:0 "Nederlandsche Perak" # // 
  dyn_c_PRK_subject_POR:0 "Portugese Perak" # // 
  dyn_c_PRK_subject_SPA:0 "Spanish Perak" # // 
  dyn_c_PRK_subject_GER:0 "Deutsche Perak" # // 
@@ -3638,7 +3604,7 @@
  dyn_c_SEL_subject_SIA:0 "Siamese Selangor" # // 
  dyn_c_SEL_subject_GBR:0 "British Selangor" # // 
  dyn_c_SEL_subject_FRA:0 "français Selangor" # // 
- dyn_c_SEL_subject_NET:0 "Nederlandse Selangor" # // 
+ dyn_c_SEL_subject_NET:0 "Nederlandsche Selangor" # // 
  dyn_c_SEL_subject_POR:0 "Portugese Selangor" # // 
  dyn_c_SEL_subject_SPA:0 "Spanish Selangor" # // 
  dyn_c_SEL_subject_GER:0 "Deutsche Selangor" # // 
@@ -3667,7 +3633,7 @@
  dyn_c_JOH_subject_SIA:0 "Siamese Johore" # // 
  dyn_c_JOH_subject_GBR:0 "British Johore" # // 
  dyn_c_JOH_subject_FRA:0 "Johore français" # // 
- dyn_c_JOH_subject_NET:0 "Nederlandse Johore" # // 
+ dyn_c_JOH_subject_NET:0 "Nederlandsche Johore" # // 
  dyn_c_JOH_subject_POR:0 "Portugese Johore" # // 
  dyn_c_JOH_subject_SPA:0 "Spanish Johore" # // 
  dyn_c_JOH_subject_GER:0 "Deutsche Johore" # // 
@@ -3908,7 +3874,7 @@
  dyn_c_FND_subject_BRZ:0 "Andes Brasileiras" # // 
  dyn_c_FND_subject_SPA:0 "Andes Españolas" # // 
  dyn_c_FND_subject_ITA:0 "Ande Italiana" # // 
- dyn_c_FND_subject_NET:0 "Nederlandse Andes" # // 
+ dyn_c_FND_subject_NET:0 "Nederlandsche Andes" # // 
  dyn_c_FND_subject_GER:0 "Deutsches Anden" # // 
  dyn_c_FND_subject_PRU:0 "Prußisches Anden" # // 
  dyn_c_FND_subject_AUS:0 "Österreichisches Anden" # // 
@@ -4074,7 +4040,7 @@
  dyn_c_PCO_subject_SIA:0 "Siamese Puerto Rico" # // 
  dyn_c_PCO_subject_GBR:0 "British Puerto Rico" # // 
  dyn_c_PCO_subject_FRA:0 "Porto Rico français" # // 
- dyn_c_PCO_subject_NET:0 "Nederlandse Puerto Rico" # // 
+ dyn_c_PCO_subject_NET:0 "Nederlandsche Puerto Rico" # // 
  dyn_c_PCO_subject_POR:0 "Porto Rico Portugues" # // 
  dyn_c_PCO_subject_SPA:0 "Puerto Rico Espñol" # // 
  dyn_c_PCO_subject_GER:0 "Deutsches Puerto Rico" # // 
@@ -4351,19 +4317,9 @@
 
 #CENTRAL NORTH AMERICA
 
- dyn_c_usa_absolutist_monarchy:0 "American Empire" # // 
- dyn_c_usa_monarchy:0 "United Empire of America" # // 
- dyn_c_usa_dictatorship:0 "United States of America" # // 
- dyn_c_usa_republic:0 "United States of America" # // 
- dyn_c_usa_communist:0 "Union of American Socialist States" # // 
- dyn_c_usa_communistvote:0 "People's Federal States" # // Socialist Union of Federative Republics of Councils in America
- dyn_c_usa_theocratic:0 "Federated Archbishoprics of America" # // 
- dyn_c_usa_theocraticvote:0 "Christian Commonwealth of America" # // 
- dyn_c_usa_anarchy:0 "Combined Syndicates of America" # // 
-
  dyn_c_usa_technocracy:0 "North American Technate" # // 
  dyn_c_usa_nortons_empire:0 "Empire of Norton" # // 
-
+ #subjects
  dyn_c_USA_subject_GBR:0 "British North America" # // 
  dyn_c_USA_dominion_GBR:0 "Dominion of North America" # // 
  dyn_c_USA_puppet_GBR:0 "Provinces of North America" # // 
@@ -4373,17 +4329,7 @@
  #dyn_c_united_states_technocratic:0 "Combined Technates of America" # // 
 
 
-
- dyn_c_csa_absolutist_monarchy:0 "American Empire" # // 
- dyn_c_csa_monarchy:0 "United American Kingdoms" # // 
- dyn_c_csa_dictatorship:0 "Confederate States of America" # // 
- dyn_c_csa_republic:0 "Confederate States of America" # // 
- dyn_c_csa_communist:0 "Confederation of American Councils" # // 
- dyn_c_csa_communistvote:0 "Socialist States of America" # // 
- dyn_c_csa_theocratic:0 "Christian Dominion of America" # // 
- dyn_c_csa_theocraticvote:0 "American Christian Commonwealth" # // 
- dyn_c_csa_anarchy:0 "American Free Territory" # // 
-
+ #subjects
  dyn_c_CSA_subject_GBR:0 "British North America" # // 
  dyn_c_CSA_dominion_GBR:0 "Southern Dominion of America" # // 
  dyn_c_CSA_puppet_GBR:0 "Southern Provinces of America" # // 
@@ -4393,17 +4339,7 @@
  #dyn_c_confederate_states_republictechnate:0 "Union of Southern Technates" # // 
 
 
-
- dyn_c_fsa_absolutist_monarchy:0 "United Kingdoms of America" # // 
- dyn_c_fsa_monarchy:0 "United Kingdoms of America" # // 
- dyn_c_fsa_dictatorship:0 "Free States of America" # // 
- dyn_c_fsa_republic:0 "Free States of America" # // 
- dyn_c_fsa_communist:0 "Federated Councils of America" # // 
- dyn_c_fsa_communistvote:0 "Federated Republics of America" # // 
- dyn_c_fsa_theocratic:0 "Commonwealth of America" # // 
- dyn_c_fsa_theocraticvote:0 "Devotional States of America" # // 
- dyn_c_fsa_anarchy:0 "American Free Territory" # // 
-
+ #subjects
  dyn_c_FSA_subject_GBR:0 "British North America" # // 
  dyn_c_FSA_dominion_GBR:0 "Northern Dominion of America" # // 
  dyn_c_FSA_puppet_GBR:0 "Northern Provinces of America" # // 
@@ -4586,6 +4522,7 @@
  dyn_c_ALK_subject_RUS:0 "Russkaja Aljaska" # Русская Аляска // Russian Alaska
  dyn_c_ALK_colony_RUS:0 "Rossіjsko-Amerikanskaja kompanіja" # // Russian-American Territory
  dyn_c_ALK_chartered_company_RUS:0 "Rossіjsko-Amerikanskaja kompanіja" #Россійско-Американская компанія // Russian-American Company 
+
 #Sahara
 
 #Senegal
@@ -4603,7 +4540,7 @@
  dyn_c_SOK_subject_BRZ:0 "Socoto Brasileiro" # // 
  dyn_c_SOK_subject_SPA:0 "Sokoto Español" # // 
  dyn_c_SOK_subject_ITA:0 "Sokoto Italiano" # // 
- dyn_c_SOK_subject_NET:0 "Nederlandse Sokoto" # // 
+ dyn_c_SOK_subject_NET:0 "Nederlandsche Sokoto" # // 
  dyn_c_SOK_subject_GER:0 "Deutsches Sokoto" # // 
  dyn_c_SOK_subject_PRU:0 "Prußisches Sokoto" # // 
  dyn_c_SOK_subject_AUS:0 "Österreichisches Sokoto" # // 
@@ -4752,7 +4689,7 @@
  dyn_c_SOK_subject_BRZ:0 "Socoto Brasileiro" # // 
  dyn_c_SOK_subject_SPA:0 "Sokoto Español" # // 
  dyn_c_SOK_subject_ITA:0 "Sokoto Italiano" # // 
- dyn_c_SOK_subject_NET:0 "Nederlandse Sokoto" # // 
+ dyn_c_SOK_subject_NET:0 "Nederlandsche Sokoto" # // 
  dyn_c_SOK_subject_GER:0 "Deutsches Sokoto" # // 
  dyn_c_SOK_subject_PRU:0 "Prußisches Sokoto" # // 
  dyn_c_SOK_subject_AUS:0 "Österreichisches Sokoto" # // 
@@ -4847,7 +4784,7 @@
  dyn_c_GZA_subject_BRZ:0 "Gaza Brasileiro" # // 
  dyn_c_GZA_subject_SPA:0 "Gaza Español" # // 
  dyn_c_GZA_subject_ITA:0 "Gaza Italiano" # // 
- dyn_c_GZA_subject_NET:0 "Nederlandse Gaza" # // 
+ dyn_c_GZA_subject_NET:0 "Nederlandsche Gaza" # // 
  dyn_c_GZA_subject_GER:0 "Deutsches Gaza" # // 
  dyn_c_GZA_subject_PRU:0 "Prußisches Gaza" # // 
  dyn_c_GZA_subject_AUS:0 "Österreichisches Gaza" # // 
@@ -4868,7 +4805,7 @@
  dyn_c_ZUL_subject_BRZ:0 "Zululândia Brasileiro" # // 
  dyn_c_ZUL_subject_SPA:0 "Zululandia Español" # // 
  dyn_c_ZUL_subject_ITA:0 "Zululand Italiano" # // 
- dyn_c_ZUL_subject_NET:0 "Nederlandse Zoeloeland" # // 
+ dyn_c_ZUL_subject_NET:0 "Nederlandsche Zoeloeland" # // 
  dyn_c_ZUL_subject_GER:0 "Deutsches Zululand" # // 
  dyn_c_ZUL_subject_PRU:0 "Prußisches Zululand" # // 
  dyn_c_ZUL_subject_AUS:0 "Österreichisches Zululand" # // 
@@ -4890,7 +4827,7 @@
  dyn_c_TRN_subject_BRZ:0 "Transvaal Brasileiro" # // 
  dyn_c_TRN_subject_SPA:0 "Transvaal Español" # // 
  dyn_c_TRN_subject_ITA:0 "Transvaal Italiano" # // 
- dyn_c_TRN_subject_NET:0 "Nederlandse Transvaal" # // 
+ dyn_c_TRN_subject_NET:0 "Nederlandsche Transvaal" # // 
  dyn_c_TRN_subject_GER:0 "Deutsches Transvaal" # // 
  dyn_c_TRN_subject_PRU:0 "Prußisches Transvaal" # // 
  dyn_c_TRN_subject_AUS:0 "Österreichisches Transvaal" # // 
@@ -4912,7 +4849,7 @@
  dyn_c_ORA_subject_BRZ:0 "Orange Brasileiro" # // 
  dyn_c_ORA_subject_SPA:0 "Orange Español" # // 
  dyn_c_ORA_subject_ITA:0 "Orange Italiano" # // 
- dyn_c_ORA_subject_NET:0 "Nederlandse Oranje" # // 
+ dyn_c_ORA_subject_NET:0 "Nederlandsche Oranje" # // 
  dyn_c_ORA_subject_GER:0 "Deutsches Oranje" # // 
  dyn_c_ORA_subject_PRU:0 "Prußisches Oranje" # // 
  dyn_c_ORA_subject_AUS:0 "Österreichisches Oranje" # // 
@@ -4954,8 +4891,8 @@
  dyn_c_SAF_subject_ITA:0 "Sudafrica Italiana" # // 
  dyn_c_SAF_colony_ITA:0 "Colonia Italiana del Capo" # // 
 
- dyn_c_SAF_subject_NET:0 "Nederlandse Zuid-Afrika" # // 
- dyn_c_SAF_colony_NET:0 "Nederlandse Kaapkolonie" # // 
+ dyn_c_SAF_subject_NET:0 "Nederlandsche Zuid-Afrika" # // 
+ dyn_c_SAF_colony_NET:0 "Nederlandsche Kaapkolonie" # // 
 
  dyn_c_SAF_subject_GER:0 "Deutsches Südafrika" # // 
  dyn_c_SAF_colony_GER:0 "Deutsches Kapkolonie" # // 
@@ -5063,11 +5000,6 @@
  dyn_c_britain_sco_anarchy:0 "Comhairle Aonaichte na h-Alba" # United British Councils // Alba ... -- Free Britannia
 
 #Iberia
-
- #Country Names Plus
- #dyn_c_iberia_theocratic:0 "Holy Commonwealth of Iberia" # // Rzeczpospolita Gemeinwesen
- #dyn_c_iberia_technocratic:0 "National Commission of Iberia" #
- #dyn_c_iberia_fascist:0 "National Union of Iberia" #
  
  #spanish
  dyn_c_iberia_spa_absolutist_monarchy:0 "Imperio Ibérico" # Iberian Empire
@@ -5154,28 +5086,28 @@
 
 #Eastern Europe
  dyn_c_poland_absolutist_monarchy:0 "Królestwo Polskie" # Kingdom of Poland
- dyn_c_poland_monarchy:0 "Królestwo Polskie" # Kingdom of Poland /-/ Księstwo Polskie // Principality of poland
+ dyn_c_poland_monarchy:0 "Królestwo Polskie" # Kingdom of Poland /-/ Księstwo Polskie || Principality of poland
  dyn_c_poland_dictatorship:0 "Zjednoczona Rzeczpospolita Polan" # Poles' United Republic
  dyn_c_poland_republic:0 "Rzeczpospolita Polska" # Polish Republic/-/Commonwealth
  dyn_c_poland_communist:0 "Zjednoczona Polska Ludowa" # United People's Poland
- dyn_c_poland_communistvote:0 "Polska Rzeczpospolita Rad" # Council Republic of Poland /-/ Polska Rzeczpospolita Ludowa // People's Republic of Poland
- dyn_c_poland_theocratic:0 "Święte Cesarstwo Polskie" # Holy Polsih Empire // Księstwo warmińskie // Księcia-biskuptwa // Księstwo Biskupstwa // Biskupie Księstwo // Prince-Bishopric of Warsaw
- dyn_c_poland_theocraticvote:0 "Święta Polska Rzeczpospolita" # Holy Polish Republic // 
- dyn_c_poland_anarchy:0 "Polski Wspólnoty Wolnych" # Polish Free Communities /-/ Wspólnota Wolnych Polan // Community of Free Polans
+ dyn_c_poland_communistvote:0 "Polska Rzeczpospolita Rad" # Council Republic of Poland /-/ Polska Rzeczpospolita Ludowa || People's Republic of Poland
+ dyn_c_poland_theocratic:0 "Święte Cesarstwo Polskie" # Holy Polsih Empire /-/ Księstwo warmińskie || Księcia-biskuptwa /-/ Księstwo Biskupstwa /-/ Biskupie Księstwo || Prince-Bishopric of Warsaw
+ dyn_c_poland_theocraticvote:0 "Święta Polska Rzeczpospolita" # Holy Polish Republic
+ dyn_c_poland_anarchy:0 "Polski Wspólnoty Wolnych" # Polish Free Communities /-/ Wspólnota Wolnych Polan || Community of Free Polans
 
 
 
- dyn_c_russia_monarchy:0 "Rossіjskaja Imperіja" # Россійская Имперія // Russian Empire
- dyn_c_russia_absolutist_monarchy:0 "Rossіjskaja Imperіja" # Россійская Имперія // Russian Empire
- dyn_c_russia_dictatorship:0 "Velikaja Rossіjskaja sojuzʺ" # Великая Россійская союзъ // Greater Russian Union    Better! ^^
- dyn_c_russia_republic:0 "Rossіjskaja Federacіja" # Россійская Федерація // Russian Federation
- dyn_c_russia_communist:0 "Rossіjskaja Socіalističeskaja Respublika" # Россійская Соціалистическая Республика // Russian Socialist Republic
- dyn_c_russia_communistvote:0 "Sovětskaja Respublika Rossіja" # Совѣтская Республика Россія // Council Republic of Russia
- dyn_c_russia_communist_USSR:0 "Sojuzʺ Sovѣtskihʺ Socіalističeskihʺ Respublikʺ" # Союзъ Совѣтскихъ Соціалистическихъ Республикъ // Union of Council Socialist Republics
- dyn_c_russia_communistvote_USSR:0 "Sojuzʺ Sovѣtskihʺ Respublikʺ" # Союзъ Совѣтскихъ Республикъ // Union of Council Republics
- dyn_c_russia_theocratic:0 "Patrіarhʺ Rossіskij" # Патріархъ Россіский // Patriarchate of Russia
- dyn_c_russia_theocraticvote:0 "Rossіjskaja Pravoslavnaja Respublika" # Россійская Православная Республика // Russian Orthodox Republic
- dyn_c_russia_anarchy:0 "Sovětskaja Federacіja v Rossіja" # Совѣтская Федерація в Россія // Federation of Councils in Russia
+ dyn_c_russia_monarchy:0 "Rossіjskaja Imperіja" # Россійская Имперія || Russian Empire
+ dyn_c_russia_absolutist_monarchy:0 "Rossіjskaja Imperіja" # Россійская Имперія || Russian Empire
+ dyn_c_russia_dictatorship:0 "Velikaja Rossіjskaja sojuzʺ" # Великая Россійская союзъ || Greater Russian Union    Better! ^^
+ dyn_c_russia_republic:0 "Rossіjskaja Federacіja" # Россійская Федерація || Russian Federation
+ dyn_c_russia_communist:0 "Rossіjskaja Socіalističeskaja Respublika" # Россійская Соціалистическая Республика || Russian Socialist Republic
+ dyn_c_russia_communistvote:0 "Sovětskaja Respublika Rossіja" # Совѣтская Республика Россія || Council Republic of Russia
+ dyn_c_russia_communist_USSR:0 "Sojuzʺ Sovѣtskihʺ Socіalističeskihʺ Respublikʺ" # Союзъ Совѣтскихъ Соціалистическихъ Республикъ || Union of Council Socialist Republics
+ dyn_c_russia_communistvote_USSR:0 "Sojuzʺ Sovѣtskihʺ Respublikʺ" # Союзъ Совѣтскихъ Республикъ || Union of Council Republics
+ dyn_c_russia_theocratic:0 "Patrіarhʺ Rossіskij" # Патріархъ Россіский || Patriarchate of Russia
+ dyn_c_russia_theocraticvote:0 "Rossіjskaja Pravoslavnaja Respublika" # Россійская Православная Республика || Russian Orthodox Republic
+ dyn_c_russia_anarchy:0 "Sovětskaja Federacіja v Rossіja" # Совѣтская Федерація в Россія || Federation of Councils in Russia
 
 #Yugoslavia
 
@@ -5189,6 +5121,40 @@
 
 #Arabia
 
+ dyn_c_arabia_absolutist_monarchy:0 "al-Imbrāṭūrīyah al-ʻArabīyah al-ʻUẓmá" # الإمبراطورية العربية العظمى || Greater Empire of Arabia
+ dyn_c_arabia_monarchy:0 "al-Imbrāṭūrīyah al-ʻArabīyah" # الإمبراطورية العربية || Empire of Arabia
+ dyn_c_arabia_dictatorship:0 "al-Dawlah al-ʻArab al-ʻUẓmá" # الدولة العرب العظمى || Greater Arab State
+ dyn_c_arabia_republic:0 "al-Jumhūrīyāt al-ʻArabīyah al-Muttaḥidah" # الجمهوريات العربية المتحدة || United Arabian Republics
+ dyn_c_arabia_communist:0 "Fidrālīyah al-Wilāyāt al-Ishtirākīyah al-ʻArab" # فدرالية الولايات الاشتراكية العرب || Federation of Arab Socialist States
+ dyn_c_arabia_communistvote:0 "al-Jamāhīrīyah al-ʻArabīyah al-shaʻbīyah" # الجماهيرية العربية الشعبية || People's Arabian Masses
+ dyn_c_arabia_theocratic:0 "al-Khilāfah al-ʻArab" # الخلافة العرب || Arab Caliphate
+ dyn_c_arabia_theocraticvote:0 "al-Jumhūrīyah al-Islāmīyah al-ʻArabīyah" # الجمهورية الإسلامية العربية || Islamic Republic of Arabia
+ dyn_c_arabia_anarchy:0 "al-Majālis al-ʻArabīyah" # المجالس العربية || Councils of Arabia
+
+
+
+ dyn_c_nejd_absolutist_monarchy:0 "Mamlakat Najd" # مملكة نجد || Kingdom of Najd
+ dyn_c_nejd_monarchy:0 "Mamlakat Najd" # مملكة نجد || Kingdom of Najd
+ dyn_c_nejd_dictatorship:0 "Dawlat Najd" # دولة نجد || Najd State
+ dyn_c_nejd_republic:0 "Jumhūrīyat Najd" # جمهورية نجد || Republic of Najd
+ dyn_c_nejd_communist:0 "Jumhūrīyat Najd al-shaʻbīyah" # جمهورية نجد الشعبية || People's Republic of Najd
+ dyn_c_nejd_communistvote:0 "al-Jumhūrīyah al-Majālis Najd" # الجمهورية المجالس نجد || Councils republic of Najd
+ dyn_c_nejd_theocratic:0 "Salṭanat Najd" # سلطنة نجد || Sultanate of Najd
+ dyn_c_nejd_theocraticvote:0 "Jumhūrīyat Najd al-Islāmīyah" # جمهورية نجد الإسلامية || Islamic republic of Najd
+ dyn_c_nejd_anarchy:0 "Majālis Najd" # مجالس نجد || Councils of Najd
+
+
+
+ dyn_c_hedjaz_absolutist_monarchy:0 "al-Mamlakah al-Ḥijāzīyah" # المملكة الحجازية || Kingdom of Hejaz
+ dyn_c_hedjaz_monarchy:0 "al-Mamlakah al-Ḥijāzīyah" # المملكة الحجازية || Kingdom of Hejaz
+ dyn_c_hedjaz_dictatorship:0 "al-Dawlah al-Ḥijāz" # الدولة الحجاز || State of Hejaz
+ dyn_c_hedjaz_republic:0 "al-Jumhūrīyah al-Ḥijāz" # الجمهورية الحجاز || Republic of Hejaz
+ dyn_c_hedjaz_communist:0 "Jumhūrīyah al-Ḥijāz al-shaʻbīyah" # جمهورية الحجاز الشعبية || People's Republic of Hejaz
+ dyn_c_hedjaz_communistvote:0 "al-Jumhūrīyah al-majālis al-Ḥijāz" # الجمهورية المجالس الحجاز || Council Republic of Hejaz 
+ dyn_c_hedjaz_theocratic:0 "al-Sharāfah al-Ḥijāz" # الشرافة الحجاز || Sharifate of Hejaz
+ dyn_c_hedjaz_theocraticvote:0 "al-Jumhūrīyah al-Islāmīyah al-Ḥijāz" # الجمهورية الإسلامية الحجاز || Islmic Republic of Hejaz
+ dyn_c_hedjaz_anarchy:0 "Majālis al-Ḥijāz" #  مجالس الحجاز || Councils of Hejaz
+
 #South/Central Asia
 
 #North/Central Asia
@@ -5198,6 +5164,17 @@
 #Far-East Asia
 
 #China
+
+ #中華 || Chinese /-/ 委员会 || council /-/ 共和國 || Republic
+ dyn_c_china_absolutist_monarchy:0 "Dà Qīng Dìguó" # 大清帝國 || Great Qing /-/ Manchu: Daicing Gurun ; ᡩᠠᡳ᠌ᠴᡳᠩ ᡤᡠᡵᡠᠨ
+ dyn_c_china_monarchy:0 "Qīng Dìguó" # 清帝國 || Qing
+ dyn_c_china_dictatorship:0 "Zhōnghuá Mínguó" # 中華民國 || National State of China
+ dyn_c_china_republic:0 "Zhōnghuá Gònghéguó" # 中華共和国 || Republic of china
+ dyn_c_china_communist:0 "Zhōnghuá Rénmín Gònghéguó" # 中華人民共和国 || People's Republic of China
+ dyn_c_china_communistvote:0 "Zhōnghuá Wěiyuánhuì Gònghéguó" # 中華委员会共和國 || Council Republic of China
+ dyn_c_china_theocratic:0 "Tianxia" # 天下 || Kingdom of Heaven
+ dyn_c_china_theocraticvote:0 "Zhōnghuá Tiāngònghéguó" # 中華天共和国 || Celestial Republic of China
+ dyn_c_china_anarchy:0 "Zhōnghuá Lián Shěng" # 中華聯省 || United Province of China
 
 #Indochina
 
@@ -5220,6 +5197,40 @@
 #Mexico
 
 #CENTRAL NORTH AMERICA
+
+ dyn_c_usa_absolutist_monarchy:0 "American Empire" #
+ dyn_c_usa_monarchy:0 "United Empire of America" #
+ dyn_c_usa_dictatorship:0 "America's Union of States" # //
+ dyn_c_usa_republic:0 "United States of America" #
+ dyn_c_usa_communist:0 "Union of American Socialist States" #
+ dyn_c_usa_communistvote:0 "People's Federal Republics of america" # /-/ Socialist Union of Federative Republics of Councils in America
+ dyn_c_usa_theocratic:0 "Federated Archbishoprics of America" #
+ dyn_c_usa_theocraticvote:0 "Christian States of America" #
+ dyn_c_usa_anarchy:0 "Combined Syndicates of America" #
+
+
+
+ dyn_c_csa_absolutist_monarchy:0 "Commonwealth of America" #
+ dyn_c_csa_monarchy:0 "Confederation of American Kingdoms" #
+ dyn_c_csa_dictatorship:0 "America's Confederated States" # //
+ dyn_c_csa_republic:0 "Confederate States of America" #
+ dyn_c_csa_communist:0 "Socialist States of America" #
+ dyn_c_csa_communistvote:0 "Confederation of American Councils" #
+ dyn_c_csa_theocratic:0 "Christian Dominion of America" #
+ dyn_c_csa_theocraticvote:0 "American Christian Commonwealth" #
+ dyn_c_csa_anarchy:0 "American Free Territory" #
+
+
+
+ dyn_c_fsa_absolutist_monarchy:0 "United Kingdoms of America" #
+ dyn_c_fsa_monarchy:0 "United Kingdoms of America" #
+ dyn_c_fsa_dictatorship:0 "Free American State" #
+ dyn_c_fsa_republic:0 "Free States of America" #
+ dyn_c_fsa_communist:0 "United People's Republics of America" #
+ dyn_c_fsa_communistvote:0 "Federated Council Republics of America" #
+ dyn_c_fsa_theocratic:0 "Christian Commonwealth of America" #
+ dyn_c_fsa_theocraticvote:0 "Devotional Republics of America" #
+ dyn_c_fsa_anarchy:0 "Federated Councils in America" #
 
 #Canada
 
@@ -5314,12 +5325,12 @@
  dyn_c_Dsouthern_africa_subject_GER:0 "Deutsch-Südafrika" # // 
  
 
- dyn_c_Dsenegal_subject_NET:0 "Nederlandse-West-Afrika" # // 
- dyn_c_Dniger_subject_NET:0 "Nederlandse-Centraal-Afrika" # // 
- dyn_c_Dcongo_subject_NET:0 "Nederlandse-Equatoriaal-Afrika" # // 
- dyn_c_Dethiopia_subject_NET:0 "Nederlandse-Abessinië-Afrika" # // 
- dyn_c_Dzanj_subject_NET:0 "Nederlandse-Este-Afrika" # // 
- dyn_c_Dsouthern_africa_subject_NET:0 "Nederlandse-Zuid-Afrika" # // 
+ dyn_c_Dsenegal_subject_NET:0 "Nederlandsche-West-Afrika" # // 
+ dyn_c_Dniger_subject_NET:0 "Nederlandsche-Centraal-Afrika" # // 
+ dyn_c_Dcongo_subject_NET:0 "Nederlandsche-Equatoriaal-Afrika" # // 
+ dyn_c_Dethiopia_subject_NET:0 "Nederlandsche-Abessinië-Afrika" # // 
+ dyn_c_Dzanj_subject_NET:0 "Nederlandsche-Este-Afrika" # // 
+ dyn_c_Dsouthern_africa_subject_NET:0 "Nederlandsche-Zuid-Afrika" # // 
 
 #Dynamic Countres // Revolutions
 
