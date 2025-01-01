@@ -3178,7 +3178,7 @@ FIN = {
 	
 	dynamic_country_name = { #Default
 		name = dyn_c_finland_subject_RUS
-		adjective = NOR_ADJ
+		adjective = FIN_ADJ
 
 		is_main_tag_only = yes
 		priority = 101
@@ -3198,7 +3198,7 @@ FIN = {
 	
 	dynamic_country_name = { #Puppet
 		name = dyn_c_finland_puppet_RUS
-		adjective = NOR_ADJ
+		adjective = FIN_ADJ
 
 		is_main_tag_only = yes
 		priority = 102
@@ -3214,7 +3214,7 @@ FIN = {
 	
 	dynamic_country_name = { #Personal Union
 		name = dyn_c_finland_personal_union_RUS
-		adjective = NOR_ADJ
+		adjective = FIN_ADJ
 
 		is_main_tag_only = yes
 		priority = 102
