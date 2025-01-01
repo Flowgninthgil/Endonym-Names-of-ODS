@@ -28,33 +28,6 @@
 
 
 
-
-
-#ADJ:
- TUR_ADJ:0 "Ottoman"
- SWE_NOR_ADJ:0 "Swedo-Norwegian"
- NOR_SWE_ADJ:0 "Norwego-Swedish"
- SAR_ADJ:0 "Sardinian"
- PIE_ADJ:0 "Piedmontese"
- AUSH_ADJ:0 "Austro-Hungarian"
- CLM_ADJ:0 "Granadine"
- 
- dyn_subject_senegal_ADJ:0 "West African"
- dyn_subject_niger_ADJ:0 "Central African"
- dyn_subject_congo_ADJ:0 "Equatorial African"
- dyn_subject_ethiopia_ADJ:0 "Abyssinian"
- dyn_subject_zanj_ADJ:0 "East African"
- dyn_subject_southern_africa_ADJ:0 "South African"
- 
- dyn_senegal_ADJ:0 "Senegalese"
- dyn_niger_ADJ:0 "Nigerian"
- dyn_congo_ADJ:0 "Congolese"
- dyn_ethiopia_ADJ:0 "Ethiopian"
- dyn_zanj_ADJ:0 "Zanj"
- dyn_southern_africa_ADJ:0 "South African"
-
-
-
 #To Do
 
 
@@ -2730,36 +2703,11 @@
 
 
 
-
- dyn_c_arabia_absolutist_monarchy:0 "Imārat ljazīrah lʻarabiyaiyah" # // 
- dyn_c_arabia_monarchy:0 "Imārat ljazīrah lʻarabiyaiyah al-dustūrīyah" # // 
- dyn_c_arabia_dictatorship:0 "Arabian Empire" # // 
- dyn_c_arabia_republic:0 "United Arab States" # // 
- dyn_c_arabia_communist:0 "Jumhūrīyat jazīratu alʻarab al-shaʻbīyah al-Muttaḥidah" # // 
- dyn_c_arabia_communistvote:0 "Socialist Arab Communities" # // 
- dyn_c_arabia_theocratic:0 "Greater Imamate of Arabia" # // 
- dyn_c_arabia_theocraticvote:0 "al-Jumhūrīyah ljazīrah lʻarabiyaiyah al-Islāmīyah" # // 
- dyn_c_arabia_anarchy:0 "Alʻarab mustaqill" # // 
  #Country Names Plus
  #dyn_c_arabia_egypt:0 "Cairene Empire" # // 
- #dyn_c_arabia_monarchy:0 "Arabian Empire" # // 
- #dyn_c_arabia_republic:0 "United Arab Republic" # // 
- #dyn_c_arabia_theocratic:0 "Arab Caliphate" # // 
- #dyn_c_arabia_communist:0 "Federation of Arab Socialist States" # // 
- #dyn_c_arabia_fascist:0 "Greater Arabian State" # // 
- #dyn_c_arabia_anarchy:0 "Autonomous Arab Majlises" # // 
 
 
 
- dyn_c_nejd_absolutist_monarchy:0 "Imārat Najd" # // 
- dyn_c_nejd_monarchy:0 "Imārat Najd" # // 
- dyn_c_nejd_dictatorship:0 "Dawlatu al-Najd" # // 
- dyn_c_nejd_republic:0 "al-Jumhūrīyah al-Najd" # // 
- dyn_c_nejd_communist:0 "Jumhūrīyat Najd al-shaʻbīyah" # // 
- dyn_c_nejd_communistvote:0 "Socialist State of Najd" # // 
- dyn_c_nejd_theocratic:0 "al-Dawlah Najd al-Islāmīyah" # // 
- dyn_c_nejd_theocraticvote:0 "al-Jumhūrīyah Najd" # // 
- dyn_c_nejd_anarchy:0 "Independent Communes of Najd" # // 
  #subject
  dyn_c_NEJ_subject_GBR:0 "British Nejd" # // 
  #Country Names Plus
@@ -2788,15 +2736,6 @@
 
 
 
- dyn_c_hedjaz_absolutist_monarchy:0 "Sharāfa al-Ḥijāz" # // 
- dyn_c_hedjaz_monarchy:0 "Sharāfa al-Ḥijāz" # // 
- dyn_c_hedjaz_dictatorship:0 "Dawlatu al-Ḥijāz" # // 
- dyn_c_hedjaz_republic:0 "al-Jumhūrīyah al-Ḥijāz" # // 
- dyn_c_hedjaz_communist:0 "Jumhūrīyat al-Ḥijāz al-shaʻbīyah" # // 
- dyn_c_hedjaz_communistvote:0 "Socialist Republic al-Ḥijāz" # // 
- dyn_c_hedjaz_theocratic:0 "al-Dawlah al-Ḥijāz al-Islāmīyah" # // 
- dyn_c_hedjaz_theocraticvote:0 "al-Jumhūrīyah al-Ḥijāz al-Islāmīyah" # // 
- dyn_c_hedjaz_anarchy:0 "Free Communes al-Ḥijāz" # // 
  #subject
  dyn_c_HDJ_subject_GBR:0 "British Hedjaz" # // 
  #Country Names Plus
@@ -3391,16 +3330,6 @@
 
 #China
 
- dyn_c_china_absolutist_monarchy:0 "Dà Qīng Dìguó" # // 大清帝國 | Manchu: Daicing Gurun ; ᡩᠠᡳ᠌ᠴᡳᠩ ᡤᡠᡵᡠᠨ
- dyn_c_china_monarchy:0 "Qīng Dìguó" # // 清帝國
- dyn_c_china_dictatorship:0 "Zhōnghuá Mínguó" # // 中華民國
- dyn_c_china_republic:0 "Zhōnghuá Gònghéguó" # // 中華共和国
- dyn_c_china_communist:0 "Zhōnghuá Rénmín Gònghéguó" # // 中華人民共和国
- dyn_c_china_communistvote:0 "Zhōnghuá Wěiyuánhuì Gònghéguó" # // 中華委员会共和國
- #中華 - Chinese // 委员会 - council // 共和國 - Republic
- dyn_c_china_theocratic:0 "Tianxia" # // 天下
- dyn_c_china_theocraticvote:0 "Zhōnghuá Tiāngònghéguó" # // 中華天共和国
- dyn_c_china_anarchy:0 "Zhōnghuá Lián Shěng" # // 中華聯省
  dyn_c_CHI_subject_GBR:0 "British China" # // 
  dyn_c_CHI_subject_FRA:0 "Chine française" # // 
 
@@ -3410,15 +3339,15 @@
 
  #太平天国 // Tàipíng Tiānguó // Taiping Heavenly Kingdom // tag:TPG - taiping
 
- dyn_c_taiping_absolutist_monarchy:0 "Tàipíng Dìguó" # // 太平帝國
- dyn_c_taiping_monarchy:0 "Tàipíng Dìguó" # // 太平帝國
- dyn_c_taiping_dictatorship:0 "" # // 
- dyn_c_taiping_republic:0 "" # // 
- dyn_c_taiping_communist:0 "" # // 
- dyn_c_taiping_communistvote:0 "" # // 
- dyn_c_taiping_theocratic:0 "Tàipíng Tiānguó" # // 太平天国
- dyn_c_taiping_theocraticvote:0 "Tàipíng Tiāngònghéguó" # // 太平天共和国
- dyn_c_taiping_anarchy:0 "" # // 
+ dyn_c_taiping_absolutist_monarchy:0 "Tàipíng Dìguó" # 太平帝國
+ dyn_c_taiping_monarchy:0 "Tàipíng Dìguó" # 太平帝國
+ dyn_c_taiping_dictatorship:0 "Zhōnghuá Mínguó" # // 中華民國 // National State of China
+ dyn_c_taiping_republic:0 "Zhōnghuá Gònghéguó" # // 中華共和国 // Republic of china
+ dyn_c_taiping_communist:0 "Zhōnghuá Rénmín Gònghéguó" # // 中華人民共和国 // People's Republic of China
+ dyn_c_taiping_communistvote:0 "Zhōnghuá Rénmín Gònghéguó" # // 中華人民共和国 // People's Republic of China
+ dyn_c_taiping_theocratic:0 "Tàipíng Tiānguó" # 太平天国
+ dyn_c_taiping_theocraticvote:0 "Tàipíng Tiāngònghéguó" # 太平天共和国
+ dyn_c_taiping_anarchy:0 "Zhōnghuá Lián Shěng" # // 中華聯省 // United Province of China
  dyn_c_TPG_subject_GBR:0 "British China" # // 
  dyn_c_TPG_subject_FRA:0 "Chine française" # // 
 
@@ -4391,19 +4320,9 @@
 
 #CENTRAL NORTH AMERICA
 
- dyn_c_usa_absolutist_monarchy:0 "American Empire" # // 
- dyn_c_usa_monarchy:0 "United Empire of America" # // 
- dyn_c_usa_dictatorship:0 "United States of America" # // 
- dyn_c_usa_republic:0 "United States of America" # // 
- dyn_c_usa_communist:0 "Union of American Socialist States" # // 
- dyn_c_usa_communistvote:0 "People's Federal States" # // Socialist Union of Federative Republics of Councils in America
- dyn_c_usa_theocratic:0 "Federated Archbishoprics of America" # // 
- dyn_c_usa_theocraticvote:0 "Christian Commonwealth of America" # // 
- dyn_c_usa_anarchy:0 "Combined Syndicates of America" # // 
-
  dyn_c_usa_technocracy:0 "North American Technate" # // 
  dyn_c_usa_nortons_empire:0 "Empire of Norton" # // 
-
+ #subjects
  dyn_c_USA_subject_GBR:0 "British North America" # // 
  dyn_c_USA_dominion_GBR:0 "Dominion of North America" # // 
  dyn_c_USA_puppet_GBR:0 "Provinces of North America" # // 
@@ -4413,17 +4332,7 @@
  #dyn_c_united_states_technocratic:0 "Combined Technates of America" # // 
 
 
-
- dyn_c_csa_absolutist_monarchy:0 "American Empire" # // 
- dyn_c_csa_monarchy:0 "United American Kingdoms" # // 
- dyn_c_csa_dictatorship:0 "Confederate States of America" # // 
- dyn_c_csa_republic:0 "Confederate States of America" # // 
- dyn_c_csa_communist:0 "Confederation of American Councils" # // 
- dyn_c_csa_communistvote:0 "Socialist States of America" # // 
- dyn_c_csa_theocratic:0 "Christian Dominion of America" # // 
- dyn_c_csa_theocraticvote:0 "American Christian Commonwealth" # // 
- dyn_c_csa_anarchy:0 "American Free Territory" # // 
-
+ #subjects
  dyn_c_CSA_subject_GBR:0 "British North America" # // 
  dyn_c_CSA_dominion_GBR:0 "Southern Dominion of America" # // 
  dyn_c_CSA_puppet_GBR:0 "Southern Provinces of America" # // 
@@ -4433,17 +4342,7 @@
  #dyn_c_confederate_states_republictechnate:0 "Union of Southern Technates" # // 
 
 
-
- dyn_c_fsa_absolutist_monarchy:0 "United Kingdoms of America" # // 
- dyn_c_fsa_monarchy:0 "United Kingdoms of America" # // 
- dyn_c_fsa_dictatorship:0 "Free States of America" # // 
- dyn_c_fsa_republic:0 "Free States of America" # // 
- dyn_c_fsa_communist:0 "Federated Councils of America" # // 
- dyn_c_fsa_communistvote:0 "Federated Republics of America" # // 
- dyn_c_fsa_theocratic:0 "Commonwealth of America" # // 
- dyn_c_fsa_theocraticvote:0 "Devotional States of America" # // 
- dyn_c_fsa_anarchy:0 "American Free Territory" # // 
-
+ #subjects
  dyn_c_FSA_subject_GBR:0 "British North America" # // 
  dyn_c_FSA_dominion_GBR:0 "Northern Dominion of America" # // 
  dyn_c_FSA_puppet_GBR:0 "Northern Provinces of America" # // 
@@ -4626,6 +4525,7 @@
  dyn_c_ALK_subject_RUS:0 "Russkaja Aljaska" # Русская Аляска // Russian Alaska
  dyn_c_ALK_colony_RUS:0 "Rossіjsko-Amerikanskaja kompanіja" # // Russian-American Territory
  dyn_c_ALK_chartered_company_RUS:0 "Rossіjsko-Amerikanskaja kompanіja" #Россійско-Американская компанія // Russian-American Company 
+
 #Sahara
 
 #Senegal
@@ -5189,28 +5089,28 @@
 
 #Eastern Europe
  dyn_c_poland_absolutist_monarchy:0 "Królestwo Polskie" # Kingdom of Poland
- dyn_c_poland_monarchy:0 "Królestwo Polskie" # Kingdom of Poland /-/ Księstwo Polskie // Principality of poland
+ dyn_c_poland_monarchy:0 "Królestwo Polskie" # Kingdom of Poland /-/ Księstwo Polskie || Principality of poland
  dyn_c_poland_dictatorship:0 "Zjednoczona Rzeczpospolita Polan" # Poles' United Republic
  dyn_c_poland_republic:0 "Rzeczpospolita Polska" # Polish Republic/-/Commonwealth
  dyn_c_poland_communist:0 "Zjednoczona Polska Ludowa" # United People's Poland
- dyn_c_poland_communistvote:0 "Polska Rzeczpospolita Rad" # Council Republic of Poland /-/ Polska Rzeczpospolita Ludowa // People's Republic of Poland
- dyn_c_poland_theocratic:0 "Święte Cesarstwo Polskie" # Holy Polsih Empire // Księstwo warmińskie // Księcia-biskuptwa // Księstwo Biskupstwa // Biskupie Księstwo // Prince-Bishopric of Warsaw
- dyn_c_poland_theocraticvote:0 "Święta Polska Rzeczpospolita" # Holy Polish Republic // 
- dyn_c_poland_anarchy:0 "Polski Wspólnoty Wolnych" # Polish Free Communities /-/ Wspólnota Wolnych Polan // Community of Free Polans
+ dyn_c_poland_communistvote:0 "Polska Rzeczpospolita Rad" # Council Republic of Poland /-/ Polska Rzeczpospolita Ludowa || People's Republic of Poland
+ dyn_c_poland_theocratic:0 "Święte Cesarstwo Polskie" # Holy Polsih Empire /-/ Księstwo warmińskie || Księcia-biskuptwa /-/ Księstwo Biskupstwa /-/ Biskupie Księstwo || Prince-Bishopric of Warsaw
+ dyn_c_poland_theocraticvote:0 "Święta Polska Rzeczpospolita" # Holy Polish Republic
+ dyn_c_poland_anarchy:0 "Polski Wspólnoty Wolnych" # Polish Free Communities /-/ Wspólnota Wolnych Polan || Community of Free Polans
 
 
 
- dyn_c_russia_monarchy:0 "Rossіjskaja Imperіja" # Россійская Имперія // Russian Empire
- dyn_c_russia_absolutist_monarchy:0 "Rossіjskaja Imperіja" # Россійская Имперія // Russian Empire
- dyn_c_russia_dictatorship:0 "Velikaja Rossіjskaja sojuzʺ" # Великая Россійская союзъ // Greater Russian Union    Better! ^^
- dyn_c_russia_republic:0 "Rossіjskaja Federacіja" # Россійская Федерація // Russian Federation
- dyn_c_russia_communist:0 "Rossіjskaja Socіalističeskaja Respublika" # Россійская Соціалистическая Республика // Russian Socialist Republic
- dyn_c_russia_communistvote:0 "Sovětskaja Respublika Rossіja" # Совѣтская Республика Россія // Council Republic of Russia
- dyn_c_russia_communist_USSR:0 "Sojuzʺ Sovѣtskihʺ Socіalističeskihʺ Respublikʺ" # Союзъ Совѣтскихъ Соціалистическихъ Республикъ // Union of Council Socialist Republics
- dyn_c_russia_communistvote_USSR:0 "Sojuzʺ Sovѣtskihʺ Respublikʺ" # Союзъ Совѣтскихъ Республикъ // Union of Council Republics
- dyn_c_russia_theocratic:0 "Patrіarhʺ Rossіskij" # Патріархъ Россіский // Patriarchate of Russia
- dyn_c_russia_theocraticvote:0 "Rossіjskaja Pravoslavnaja Respublika" # Россійская Православная Республика // Russian Orthodox Republic
- dyn_c_russia_anarchy:0 "Sovětskaja Federacіja v Rossіja" # Совѣтская Федерація в Россія // Federation of Councils in Russia
+ dyn_c_russia_monarchy:0 "Rossіjskaja Imperіja" # Россійская Имперія || Russian Empire
+ dyn_c_russia_absolutist_monarchy:0 "Rossіjskaja Imperіja" # Россійская Имперія || Russian Empire
+ dyn_c_russia_dictatorship:0 "Velikaja Rossіjskaja sojuzʺ" # Великая Россійская союзъ || Greater Russian Union    Better! ^^
+ dyn_c_russia_republic:0 "Rossіjskaja Federacіja" # Россійская Федерація || Russian Federation
+ dyn_c_russia_communist:0 "Rossіjskaja Socіalističeskaja Respublika" # Россійская Соціалистическая Республика || Russian Socialist Republic
+ dyn_c_russia_communistvote:0 "Sovětskaja Respublika Rossіja" # Совѣтская Республика Россія || Council Republic of Russia
+ dyn_c_russia_communist_USSR:0 "Sojuzʺ Sovѣtskihʺ Socіalističeskihʺ Respublikʺ" # Союзъ Совѣтскихъ Соціалистическихъ Республикъ || Union of Council Socialist Republics
+ dyn_c_russia_communistvote_USSR:0 "Sojuzʺ Sovѣtskihʺ Respublikʺ" # Союзъ Совѣтскихъ Республикъ || Union of Council Republics
+ dyn_c_russia_theocratic:0 "Patrіarhʺ Rossіskij" # Патріархъ Россіский || Patriarchate of Russia
+ dyn_c_russia_theocraticvote:0 "Rossіjskaja Pravoslavnaja Respublika" # Россійская Православная Республика || Russian Orthodox Republic
+ dyn_c_russia_anarchy:0 "Sovětskaja Federacіja v Rossіja" # Совѣтская Федерація в Россія || Federation of Councils in Russia
 
 #Yugoslavia
 
@@ -5224,6 +5124,40 @@
 
 #Arabia
 
+ dyn_c_arabia_absolutist_monarchy:0 "al-Imbrāṭūrīyah al-ʻArabīyah al-ʻUẓmá" # الإمبراطورية العربية العظمى || Greater Empire of Arabia
+ dyn_c_arabia_monarchy:0 "al-Imbrāṭūrīyah al-ʻArabīyah" # الإمبراطورية العربية || Empire of Arabia
+ dyn_c_arabia_dictatorship:0 "al-Dawlah al-ʻArab al-ʻUẓmá" # الدولة العرب العظمى || Greater Arab State
+ dyn_c_arabia_republic:0 "al-Jumhūrīyāt al-ʻArabīyah al-Muttaḥidah" # الجمهوريات العربية المتحدة || United Arabian Republics
+ dyn_c_arabia_communist:0 "Fidrālīyah al-Wilāyāt al-Ishtirākīyah al-ʻArab" # فدرالية الولايات الاشتراكية العرب || Federation of Arab Socialist States
+ dyn_c_arabia_communistvote:0 "al-Jamāhīrīyah al-ʻArabīyah al-shaʻbīyah" # الجماهيرية العربية الشعبية || People's Arabian Masses
+ dyn_c_arabia_theocratic:0 "al-Khilāfah al-ʻArab" # الخلافة العرب || Arab Caliphate
+ dyn_c_arabia_theocraticvote:0 "al-Jumhūrīyah al-Islāmīyah al-ʻArabīyah" # الجمهورية الإسلامية العربية || Islamic Republic of Arabia
+ dyn_c_arabia_anarchy:0 "al-Majālis al-ʻArabīyah" # المجالس العربية || Councils of Arabia
+
+
+
+ dyn_c_nejd_absolutist_monarchy:0 "Mamlakat Najd" # مملكة نجد || Kingdom of Najd
+ dyn_c_nejd_monarchy:0 "Mamlakat Najd" # مملكة نجد || Kingdom of Najd
+ dyn_c_nejd_dictatorship:0 "Dawlat Najd" # دولة نجد || Najd State
+ dyn_c_nejd_republic:0 "Jumhūrīyat Najd" # جمهورية نجد || Republic of Najd
+ dyn_c_nejd_communist:0 "Jumhūrīyat Najd al-shaʻbīyah" # جمهورية نجد الشعبية || People's Republic of Najd
+ dyn_c_nejd_communistvote:0 "al-Jumhūrīyah al-Majālis Najd" # الجمهورية المجالس نجد || Councils republic of Najd
+ dyn_c_nejd_theocratic:0 "Salṭanat Najd" # سلطنة نجد || Sultanate of Najd
+ dyn_c_nejd_theocraticvote:0 "Jumhūrīyat Najd al-Islāmīyah" # جمهورية نجد الإسلامية || Islamic republic of Najd
+ dyn_c_nejd_anarchy:0 "Majālis Najd" # مجالس نجد || Councils of Najd
+
+
+
+ dyn_c_hedjaz_absolutist_monarchy:0 "al-Mamlakah al-Ḥijāzīyah" # المملكة الحجازية || Kingdom of Hejaz
+ dyn_c_hedjaz_monarchy:0 "al-Mamlakah al-Ḥijāzīyah" # المملكة الحجازية || Kingdom of Hejaz
+ dyn_c_hedjaz_dictatorship:0 "al-Dawlah al-Ḥijāz" # الدولة الحجاز || State of Hejaz
+ dyn_c_hedjaz_republic:0 "al-Jumhūrīyah al-Ḥijāz" # الجمهورية الحجاز || Republic of Hejaz
+ dyn_c_hedjaz_communist:0 "Jumhūrīyah al-Ḥijāz al-shaʻbīyah" # جمهورية الحجاز الشعبية || People's Republic of Hejaz
+ dyn_c_hedjaz_communistvote:0 "al-Jumhūrīyah al-majālis al-Ḥijāz" # الجمهورية المجالس الحجاز || Council Republic of Hejaz 
+ dyn_c_hedjaz_theocratic:0 "al-Sharāfah al-Ḥijāz" # الشرافة الحجاز || Sharifate of Hejaz
+ dyn_c_hedjaz_theocraticvote:0 "al-Jumhūrīyah al-Islāmīyah al-Ḥijāz" # الجمهورية الإسلامية الحجاز || Islmic Republic of Hejaz
+ dyn_c_hedjaz_anarchy:0 "Majālis al-Ḥijāz" #  مجالس الحجاز || Councils of Hejaz
+
 #South/Central Asia
 
 #North/Central Asia
@@ -5233,6 +5167,17 @@
 #Far-East Asia
 
 #China
+
+ #中華 || Chinese /-/ 委员会 || council /-/ 共和國 || Republic
+ dyn_c_china_absolutist_monarchy:0 "Dà Qīng Dìguó" # 大清帝國 || Great Qing /-/ Manchu: Daicing Gurun ; ᡩᠠᡳ᠌ᠴᡳᠩ ᡤᡠᡵᡠᠨ
+ dyn_c_china_monarchy:0 "Qīng Dìguó" # 清帝國 || Qing
+ dyn_c_china_dictatorship:0 "Zhōnghuá Mínguó" # 中華民國 || National State of China
+ dyn_c_china_republic:0 "Zhōnghuá Gònghéguó" # 中華共和国 || Republic of china
+ dyn_c_china_communist:0 "Zhōnghuá Rénmín Gònghéguó" # 中華人民共和国 || People's Republic of China
+ dyn_c_china_communistvote:0 "Zhōnghuá Wěiyuánhuì Gònghéguó" # 中華委员会共和國 || Council Republic of China
+ dyn_c_china_theocratic:0 "Tianxia" # 天下 || Kingdom of Heaven
+ dyn_c_china_theocraticvote:0 "Zhōnghuá Tiāngònghéguó" # 中華天共和国 || Celestial Republic of China
+ dyn_c_china_anarchy:0 "Zhōnghuá Lián Shěng" # 中華聯省 || United Province of China
 
 #Indochina
 
@@ -5255,6 +5200,40 @@
 #Mexico
 
 #CENTRAL NORTH AMERICA
+
+ dyn_c_usa_absolutist_monarchy:0 "American Empire" #
+ dyn_c_usa_monarchy:0 "United Empire of America" #
+ dyn_c_usa_dictatorship:0 "America's Union of States" # //
+ dyn_c_usa_republic:0 "United States of America" #
+ dyn_c_usa_communist:0 "Union of American Socialist States" #
+ dyn_c_usa_communistvote:0 "People's Federal Republics of america" # /-/ Socialist Union of Federative Republics of Councils in America
+ dyn_c_usa_theocratic:0 "Federated Archbishoprics of America" #
+ dyn_c_usa_theocraticvote:0 "Christian States of America" #
+ dyn_c_usa_anarchy:0 "Combined Syndicates of America" #
+
+
+
+ dyn_c_csa_absolutist_monarchy:0 "Commonwealth of America" #
+ dyn_c_csa_monarchy:0 "Confederation of American Kingdoms" #
+ dyn_c_csa_dictatorship:0 "America's Confederated States" # //
+ dyn_c_csa_republic:0 "Confederate States of America" #
+ dyn_c_csa_communist:0 "Socialist States of America" #
+ dyn_c_csa_communistvote:0 "Confederation of American Councils" #
+ dyn_c_csa_theocratic:0 "Christian Dominion of America" #
+ dyn_c_csa_theocraticvote:0 "American Christian Commonwealth" #
+ dyn_c_csa_anarchy:0 "American Free Territory" #
+
+
+
+ dyn_c_fsa_absolutist_monarchy:0 "United Kingdoms of America" #
+ dyn_c_fsa_monarchy:0 "United Kingdoms of America" #
+ dyn_c_fsa_dictatorship:0 "Free American State" #
+ dyn_c_fsa_republic:0 "Free States of America" #
+ dyn_c_fsa_communist:0 "United People's Republics of America" #
+ dyn_c_fsa_communistvote:0 "Federated Council Republics of America" #
+ dyn_c_fsa_theocratic:0 "Christian Commonwealth of America" #
+ dyn_c_fsa_theocraticvote:0 "Devotional Republics of America" #
+ dyn_c_fsa_anarchy:0 "Federated Councils in America" #
 
 #Canada
 
