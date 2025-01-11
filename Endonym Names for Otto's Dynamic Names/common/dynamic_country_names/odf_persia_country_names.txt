@@ -1,4 +1,4 @@
-﻿###maimana####
+###maimana####
 MAI = {
 
 	dynamic_country_name = {
@@ -269,7 +269,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_SIA
+		name = dyn_c_MAI_subject_SIA
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -284,7 +284,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_GBR
+		name = dyn_c_MAI_subject_GBR
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -299,7 +299,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_FRA
+		name = dyn_c_MAI_subject_FRA
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -314,7 +314,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_NET
+		name = dyn_c_MAI_subject_NET
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -332,7 +332,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_POR
+		name = dyn_c_MAI_subject_POR
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -347,7 +347,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_SPA
+		name = dyn_c_MAI_subject_SPA
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -362,7 +362,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_GER
+		name = dyn_c_MAI_subject_GER
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -377,7 +377,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_PRU
+		name = dyn_c_MAI_subject_PRU
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -392,7 +392,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_AUS
+		name = dyn_c_MAI_subject_AUS
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -407,7 +407,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_RUS
+		name = dyn_c_MAI_subject_RUS
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -422,7 +422,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_TUR
+		name = dyn_c_MAI_subject_TUR
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -437,7 +437,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_USA
+		name = dyn_c_MAI_subject_USA
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -452,7 +452,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_ITA
+		name = dyn_c_MAI_subject_ITA
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -467,7 +467,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_JAP
+		name = dyn_c_MAI_subject_JAP
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -482,7 +482,7 @@ MAI = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_MAI_puppet_CHI
+		name = dyn_c_MAI_subject_CHI
 		adjective = MAI_ADJ
 
 		is_main_tag_only = yes
@@ -768,7 +768,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_SIA
+		name = dyn_c_KUN_subject_SIA
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -783,7 +783,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_GBR
+		name = dyn_c_KUN_subject_GBR
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -798,7 +798,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_FRA
+		name = dyn_c_KUN_subject_FRA
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -813,7 +813,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_NET
+		name = dyn_c_KUN_subject_NET
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -831,7 +831,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_POR
+		name = dyn_c_KUN_subject_POR
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -846,7 +846,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_SPA
+		name = dyn_c_KUN_subject_SPA
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -861,7 +861,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_GER
+		name = dyn_c_KUN_subject_GER
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -876,7 +876,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_PRU
+		name = dyn_c_KUN_subject_PRU
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -891,7 +891,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_AUS
+		name = dyn_c_KUN_subject_AUS
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -906,7 +906,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_RUS
+		name = dyn_c_KUN_subject_RUS
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -921,7 +921,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_TUR
+		name = dyn_c_KUN_subject_TUR
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -936,7 +936,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_USA
+		name = dyn_c_KUN_subject_USA
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -951,7 +951,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_ITA
+		name = dyn_c_KUN_subject_ITA
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -966,7 +966,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_JAP
+		name = dyn_c_KUN_subject_JAP
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -981,7 +981,7 @@ KUN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KUN_puppet_CHI
+		name = dyn_c_KUN_subject_CHI
 		adjective = KUN_ADJ
 
 		is_main_tag_only = yes
@@ -1267,7 +1267,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_SIA
+		name = dyn_c_CHT_subject_SIA
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1282,7 +1282,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_GBR
+		name = dyn_c_CHT_subject_GBR
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1297,7 +1297,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_FRA
+		name = dyn_c_CHT_subject_FRA
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1312,7 +1312,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_NET
+		name = dyn_c_CHT_subject_NET
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1330,7 +1330,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_POR
+		name = dyn_c_CHT_subject_POR
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1345,7 +1345,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_SPA
+		name = dyn_c_CHT_subject_SPA
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1360,7 +1360,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_GER
+		name = dyn_c_CHT_subject_GER
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1375,7 +1375,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_PRU
+		name = dyn_c_CHT_subject_PRU
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1390,7 +1390,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_AUS
+		name = dyn_c_CHT_subject_AUS
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1405,7 +1405,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_RUS
+		name = dyn_c_CHT_subject_RUS
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1420,7 +1420,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_TUR
+		name = dyn_c_CHT_subject_TUR
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1435,7 +1435,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_USA
+		name = dyn_c_CHT_subject_USA
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1450,7 +1450,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_ITA
+		name = dyn_c_CHT_subject_ITA
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1465,7 +1465,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_JAP
+		name = dyn_c_CHT_subject_JAP
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1480,7 +1480,7 @@ CHT = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_CHT_puppet_CHI
+		name = dyn_c_CHT_subject_CHI
 		adjective = CHT_ADJ
 
 		is_main_tag_only = yes
@@ -1766,7 +1766,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_SIA
+		name = dyn_c_KAB_subject_SIA
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1781,7 +1781,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_GBR
+		name = dyn_c_KAB_subject_GBR
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1796,7 +1796,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_FRA
+		name = dyn_c_KAB_subject_FRA
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1811,7 +1811,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_NET
+		name = dyn_c_KAB_subject_NET
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1829,7 +1829,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_POR
+		name = dyn_c_KAB_subject_POR
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1844,7 +1844,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_SPA
+		name = dyn_c_KAB_subject_SPA
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1859,7 +1859,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_GER
+		name = dyn_c_KAB_subject_GER
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1874,7 +1874,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_PRU
+		name = dyn_c_KAB_subject_PRU
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1889,7 +1889,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_AUS
+		name = dyn_c_KAB_subject_AUS
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1904,7 +1904,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_RUS
+		name = dyn_c_KAB_subject_RUS
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1919,7 +1919,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_TUR
+		name = dyn_c_KAB_subject_TUR
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1934,7 +1934,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_USA
+		name = dyn_c_KAB_subject_USA
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1949,7 +1949,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_ITA
+		name = dyn_c_KAB_subject_ITA
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1964,7 +1964,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_JAP
+		name = dyn_c_KAB_subject_JAP
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -1979,7 +1979,7 @@ KAB = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAB_puppet_CHI
+		name = dyn_c_KAB_subject_CHI
 		adjective = KAB_ADJ
 
 		is_main_tag_only = yes
@@ -2265,7 +2265,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_SIA
+		name = dyn_c_HER_subject_SIA
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2280,7 +2280,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_GBR
+		name = dyn_c_HER_subject_GBR
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2295,7 +2295,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_FRA
+		name = dyn_c_HER_subject_FRA
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2310,7 +2310,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_NET
+		name = dyn_c_HER_subject_NET
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2328,7 +2328,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_POR
+		name = dyn_c_HER_subject_POR
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2343,7 +2343,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_SPA
+		name = dyn_c_HER_subject_SPA
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2358,7 +2358,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_GER
+		name = dyn_c_HER_subject_GER
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2373,7 +2373,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_PRU
+		name = dyn_c_HER_subject_PRU
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2388,7 +2388,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_AUS
+		name = dyn_c_HER_subject_AUS
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2403,7 +2403,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_RUS
+		name = dyn_c_HER_subject_RUS
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2418,7 +2418,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_TUR
+		name = dyn_c_HER_subject_TUR
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2433,7 +2433,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_USA
+		name = dyn_c_HER_subject_USA
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2448,7 +2448,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_ITA
+		name = dyn_c_HER_subject_ITA
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2463,7 +2463,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_JAP
+		name = dyn_c_HER_subject_JAP
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2478,7 +2478,7 @@ HER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_HER_puppet_CHI
+		name = dyn_c_HER_subject_CHI
 		adjective = HER_ADJ
 
 		is_main_tag_only = yes
@@ -2764,7 +2764,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_SIA
+		name = dyn_c_KAN_subject_SIA
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2779,7 +2779,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_GBR
+		name = dyn_c_KAN_subject_GBR
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2794,7 +2794,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_FRA
+		name = dyn_c_KAN_subject_FRA
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2809,7 +2809,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_NET
+		name = dyn_c_KAN_subject_NET
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2827,7 +2827,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_POR
+		name = dyn_c_KAN_subject_POR
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2842,7 +2842,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_SPA
+		name = dyn_c_KAN_subject_SPA
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2857,7 +2857,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_GER
+		name = dyn_c_KAN_subject_GER
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2872,7 +2872,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_PRU
+		name = dyn_c_KAN_subject_PRU
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2887,7 +2887,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_AUS
+		name = dyn_c_KAN_subject_AUS
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2902,7 +2902,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_RUS
+		name = dyn_c_KAN_subject_RUS
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2917,7 +2917,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_TUR
+		name = dyn_c_KAN_subject_TUR
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2932,7 +2932,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_USA
+		name = dyn_c_KAN_subject_USA
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2947,7 +2947,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_ITA
+		name = dyn_c_KAN_subject_ITA
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2962,7 +2962,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_JAP
+		name = dyn_c_KAN_subject_JAP
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -2977,7 +2977,7 @@ KAN = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_KAN_puppet_CHI
+		name = dyn_c_KAN_subject_CHI
 		adjective = KAN_ADJ
 
 		is_main_tag_only = yes
@@ -3263,7 +3263,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_SIA
+		name = dyn_c_PER_subject_SIA
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3278,7 +3278,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_GBR
+		name = dyn_c_PER_subject_GBR
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3293,7 +3293,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_FRA
+		name = dyn_c_PER_subject_FRA
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3308,7 +3308,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_NET
+		name = dyn_c_PER_subject_NET
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3326,7 +3326,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_POR
+		name = dyn_c_PER_subject_POR
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3341,7 +3341,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_SPA
+		name = dyn_c_PER_subject_SPA
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3356,7 +3356,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_GER
+		name = dyn_c_PER_subject_GER
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3371,7 +3371,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_PRU
+		name = dyn_c_PER_subject_PRU
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3386,7 +3386,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_AUS
+		name = dyn_c_PER_subject_AUS
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3401,7 +3401,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_RUS
+		name = dyn_c_PER_subject_RUS
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3416,7 +3416,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_TUR
+		name = dyn_c_PER_subject_TUR
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3431,7 +3431,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_USA
+		name = dyn_c_PER_subject_USA
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3446,7 +3446,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_ITA
+		name = dyn_c_PER_subject_ITA
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3461,7 +3461,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_JAP
+		name = dyn_c_PER_subject_JAP
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
@@ -3476,7 +3476,7 @@ PER = {
 	}
 	
 	dynamic_country_name = {
-		name = dyn_c_PER_puppet_CHI
+		name = dyn_c_PER_subject_CHI
 		adjective = PER_ADJ
 
 		is_main_tag_only = yes
